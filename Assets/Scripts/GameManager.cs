@@ -60,6 +60,8 @@ namespace GGJ
             moneyStat.fillAmount += selectedOption.audience + currentSpecialEvent.audience;
             audienceStat.fillAmount += selectedOption.money + currentSpecialEvent.money;
             securityStat.fillAmount += selectedOption.security + currentSpecialEvent.security;
+
+
         }
 
         public void SetSelectedOption(int i)
