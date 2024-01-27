@@ -88,9 +88,23 @@ namespace GGJ
 
         void UpdateStats()
         {
-            moneyStat.fillAmount += selectedOption.audience + currentSpecialEvent.audience;
-            audienceStat.fillAmount += selectedOption.money + currentSpecialEvent.money;
-            securityStat.fillAmount += selectedOption.security + currentSpecialEvent.security;
+            float newAudience = selectedOption.audience + currentSpecialEvent.audience;
+            float newMoney = selectedOption.money + currentSpecialEvent.money;
+            float newSecurity = selectedOption.security + currentSpecialEvent.security;
+
+            audienceStat.fillAmount += newAudience;
+            moneyStat.fillAmount += newMoney;
+            securityStat.fillAmount += newSecurity;
+
+            if (newAudience >= 0) { StartCoroutine(ChangeColor(audienceStat, true)); }
+            else { StartCoroutine(ChangeColor(audienceStat, false)); }
+
+            if (newMoney >= 0) { StartCoroutine(ChangeColor(moneyStat, true)); }
+            else { StartCoroutine(ChangeColor(moneyStat, false)); }
+
+            if (newSecurity >= 0) { StartCoroutine(ChangeColor(securityStat, true)); }
+            else { StartCoroutine(ChangeColor(securityStat, false)); }
+
 
             if (moneyStat.fillAmount == 0)
             {
@@ -120,6 +134,21 @@ namespace GGJ
             {
                 NextCard();
             }
+
+        }
+
+        IEnumerator ChangeColor(Image img, bool isPositive)
+        {
+            Color currentColor = img.color;
+
+            if (isPositive) { img.color = Color.green; }
+            else { img.color = Color.red; }
+
+            yield return new WaitForSeconds(1f);
+
+            img.color = currentColor;
+
+            yield return null; 
         }
 
         public void SetSelectedOption(int i)
