@@ -36,7 +36,7 @@ namespace GGJ
 
         private void Awake()
         {
-            EventData[] events = EventData.getData();
+            cards = DataHandler.getData();
 
 
 
