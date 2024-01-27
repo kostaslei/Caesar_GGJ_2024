@@ -51,7 +51,7 @@ namespace GGJ
         }
 
         // Update is called once per frame
-        private void Update()
+        private void FixedUpdate()
         {
             
         }
@@ -116,9 +116,9 @@ namespace GGJ
             float newMoney = selectedOption.money + currentSpecialEvent.money;
             float newSecurity = selectedOption.security + currentSpecialEvent.security;
 
-            audienceStat.fillAmount += newAudience;
-            moneyStat.fillAmount += newMoney;
-            securityStat.fillAmount += newSecurity;
+            StartCoroutine(FillColor(audienceStat, newAudience));
+            StartCoroutine(FillColor(moneyStat, newMoney));
+            StartCoroutine(FillColor(securityStat, newSecurity));
 
             if (newAudience >= 0) { StartCoroutine(ChangeColor(audienceStat, true)); }
             else { StartCoroutine(ChangeColor(audienceStat, false)); }
@@ -158,6 +158,27 @@ namespace GGJ
             {
                 NextCard();
             }
+        }
+
+        IEnumerator FillColor(Image img, float amount)
+        {
+            float target = Mathf.Clamp01(img.fillAmount + amount);
+
+            float multiplier = 1;
+
+            if (amount < 0)
+            {
+                multiplier = -1;
+            }
+
+            while (img.fillAmount != target)
+            {
+                img.fillAmount += 0.01f * multiplier;
+
+                yield return new WaitForSeconds(0.01f);
+            }
+
+            yield return null;
         }
 
         IEnumerator ChangeColor(Image img, bool isPositive)
