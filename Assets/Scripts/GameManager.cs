@@ -7,8 +7,9 @@ using UnityEngine.UI;
 
 namespace GGJ
 {
-    public class CardManager : MonoBehaviour
+    public class GameManager : MonoBehaviour
     {
+        int dayIndex = 0;
         public TMP_Text daysCounter;
 
         [Header("STATS")]
@@ -26,6 +27,8 @@ namespace GGJ
         public Option selectedOption;
 
         public static UnityEvent onOptionSelected = new UnityEvent();
+
+
 
 
         // Start is called before the first frame update

@@ -29,6 +29,9 @@ namespace GGJ
         public Option top = new Option();
         public Option bottom = new Option();
 
+        EventData data = new EventData();
+
+
         // Start is called before the first frame update
         void Start()
         {
@@ -37,6 +40,10 @@ namespace GGJ
             top.security = 0.2f;
             bottom.security = -0.2f;
 
+            foreach(EventData ev_data in data.getData())
+            {
+
+            }
         }
 
         // Update is called once per frame
