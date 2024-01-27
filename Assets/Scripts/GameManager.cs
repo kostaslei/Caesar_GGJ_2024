@@ -130,21 +130,21 @@ namespace GGJ
             else { StartCoroutine(ChangeColor(securityStat, false)); }
 
 
-            if (moneyStat.fillAmount == 0)
-            {
-                OnGameOver.Invoke(gameOver.MoneyDown);
-            }
-            else if (moneyStat.fillAmount == 1)
-            {
-                OnGameOver.Invoke(gameOver.MoneyUp);
-            }
-            else if (audienceStat.fillAmount == 0)
+            if (audienceStat.fillAmount == 0)
             {
                 OnGameOver.Invoke(gameOver.AudienceDown);
             }
             else if (audienceStat.fillAmount == 1)
             {
                 OnGameOver.Invoke(gameOver.AudienceUp);
+            }
+            else if (moneyStat.fillAmount == 0)
+            {
+                OnGameOver.Invoke(gameOver.MoneyDown);
+            }
+            else if (moneyStat.fillAmount == 1)
+            {
+                OnGameOver.Invoke(gameOver.MoneyUp);
             }
             else if (securityStat.fillAmount == 0)
             {
