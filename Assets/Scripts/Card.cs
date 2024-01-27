@@ -10,7 +10,7 @@ public class Card : MonoBehaviour
     void Start()
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
-        _rigidbody2D.rotation = 45f;
+        //_rigidbody2D.rotation = 45f;
     }
 
     // Update is called once per frame
@@ -19,9 +19,11 @@ public class Card : MonoBehaviour
         if (_rigidbody2D.constraints == RigidbodyConstraints2D.FreezeRotation)
         {
             _rigidbody2D.constraints = RigidbodyConstraints2D.None;
+
         }
-        else if (_rigidbody2D.rotation < 1 && _rigidbody2D.rotation > -1)
+        else if (_rigidbody2D.rotation < 1f && _rigidbody2D.rotation > -1f)
         {
+            transform.rotation = Quaternion.Euler(0, 0, 0);
             _rigidbody2D.constraints = RigidbodyConstraints2D.FreezeRotation;
         }
     }

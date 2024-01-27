@@ -28,18 +28,9 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
             ""id"": ""92415701-584d-4231-852f-47d7f5884c40"",
             ""actions"": [
                 {
-                    ""name"": ""GrabCard"",
-                    ""type"": ""Button"",
-                    ""id"": ""0767fc1b-b3c2-4f75-810b-be0e84d59134"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""SwipeCard"",
+                    ""name"": ""MoveCursor"",
                     ""type"": ""Value"",
-                    ""id"": ""65bc278c-b78b-496c-98ff-88412bac640a"",
+                    ""id"": ""b35a2316-9041-45a0-93eb-8807dede2050"",
                     ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -49,35 +40,40 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
             ""bindings"": [
                 {
                     ""name"": """",
-                    ""id"": ""dda09a5c-c7fe-4643-8973-68ed7d644c4d"",
-                    ""path"": ""<Mouse>/leftButton"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""GrabCard"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""d1ea9a4e-3dea-476c-a0b3-9aada92b9c00"",
+                    ""id"": ""5cb36c1f-5e06-4786-a426-1770cfff6e50"",
                     ""path"": ""<Mouse>/delta"",
                     ""interactions"": """",
                     ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""SwipeCard"",
+                    ""groups"": ""Keyboard&Mouse"",
+                    ""action"": ""MoveCursor"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
             ]
         }
     ],
-    ""controlSchemes"": []
+    ""controlSchemes"": [
+        {
+            ""name"": ""Keyboard&Mouse"",
+            ""bindingGroup"": ""Keyboard&Mouse"",
+            ""devices"": [
+                {
+                    ""devicePath"": ""<Keyboard>"",
+                    ""isOptional"": false,
+                    ""isOR"": false
+                },
+                {
+                    ""devicePath"": ""<Mouse>"",
+                    ""isOptional"": false,
+                    ""isOR"": false
+                }
+            ]
+        }
+    ]
 }");
         // Player
         m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
-        m_Player_GrabCard = m_Player.FindAction("GrabCard", throwIfNotFound: true);
-        m_Player_SwipeCard = m_Player.FindAction("SwipeCard", throwIfNotFound: true);
+        m_Player_MoveCursor = m_Player.FindAction("MoveCursor", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -139,14 +135,12 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
     // Player
     private readonly InputActionMap m_Player;
     private List<IPlayerActions> m_PlayerActionsCallbackInterfaces = new List<IPlayerActions>();
-    private readonly InputAction m_Player_GrabCard;
-    private readonly InputAction m_Player_SwipeCard;
+    private readonly InputAction m_Player_MoveCursor;
     public struct PlayerActions
     {
         private @PlayerInputActions m_Wrapper;
         public PlayerActions(@PlayerInputActions wrapper) { m_Wrapper = wrapper; }
-        public InputAction @GrabCard => m_Wrapper.m_Player_GrabCard;
-        public InputAction @SwipeCard => m_Wrapper.m_Player_SwipeCard;
+        public InputAction @MoveCursor => m_Wrapper.m_Player_MoveCursor;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -156,22 +150,16 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
         {
             if (instance == null || m_Wrapper.m_PlayerActionsCallbackInterfaces.Contains(instance)) return;
             m_Wrapper.m_PlayerActionsCallbackInterfaces.Add(instance);
-            @GrabCard.started += instance.OnGrabCard;
-            @GrabCard.performed += instance.OnGrabCard;
-            @GrabCard.canceled += instance.OnGrabCard;
-            @SwipeCard.started += instance.OnSwipeCard;
-            @SwipeCard.performed += instance.OnSwipeCard;
-            @SwipeCard.canceled += instance.OnSwipeCard;
+            @MoveCursor.started += instance.OnMoveCursor;
+            @MoveCursor.performed += instance.OnMoveCursor;
+            @MoveCursor.canceled += instance.OnMoveCursor;
         }
 
         private void UnregisterCallbacks(IPlayerActions instance)
         {
-            @GrabCard.started -= instance.OnGrabCard;
-            @GrabCard.performed -= instance.OnGrabCard;
-            @GrabCard.canceled -= instance.OnGrabCard;
-            @SwipeCard.started -= instance.OnSwipeCard;
-            @SwipeCard.performed -= instance.OnSwipeCard;
-            @SwipeCard.canceled -= instance.OnSwipeCard;
+            @MoveCursor.started -= instance.OnMoveCursor;
+            @MoveCursor.performed -= instance.OnMoveCursor;
+            @MoveCursor.canceled -= instance.OnMoveCursor;
         }
 
         public void RemoveCallbacks(IPlayerActions instance)
@@ -189,9 +177,17 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
         }
     }
     public PlayerActions @Player => new PlayerActions(this);
+    private int m_KeyboardMouseSchemeIndex = -1;
+    public InputControlScheme KeyboardMouseScheme
+    {
+        get
+        {
+            if (m_KeyboardMouseSchemeIndex == -1) m_KeyboardMouseSchemeIndex = asset.FindControlSchemeIndex("Keyboard&Mouse");
+            return asset.controlSchemes[m_KeyboardMouseSchemeIndex];
+        }
+    }
     public interface IPlayerActions
     {
-        void OnGrabCard(InputAction.CallbackContext context);
-        void OnSwipeCard(InputAction.CallbackContext context);
+        void OnMoveCursor(InputAction.CallbackContext context);
     }
 }
