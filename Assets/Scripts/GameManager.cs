@@ -48,7 +48,6 @@ namespace GGJ
         {
             OnOptionSelected.AddListener(UpdateStats);
             OnGameOver.AddListener(GameOverCard);
-
         }
 
         // Update is called once per frame
@@ -84,6 +83,8 @@ namespace GGJ
 
         public void GameOverCard(gameOver losingCondition)
         {
+            //dayIndex = 0;
+            //daysCounter.text = dayIndex + " Days";
             switch (losingCondition)
             {
                 case gameOver.AudienceUp:
@@ -131,33 +132,32 @@ namespace GGJ
 
             if (moneyStat.fillAmount == 0)
             {
-
+                OnGameOver.Invoke(gameOver.MoneyDown);
             }
             else if (moneyStat.fillAmount == 1)
             {
-
+                OnGameOver.Invoke(gameOver.MoneyUp);
             }
             else if (audienceStat.fillAmount == 0)
             {
-
+                OnGameOver.Invoke(gameOver.AudienceDown);
             }
             else if (audienceStat.fillAmount == 1)
             {
-
+                OnGameOver.Invoke(gameOver.AudienceUp);
             }
             else if (securityStat.fillAmount == 0)
             {
-
+                OnGameOver.Invoke(gameOver.SecurityDown);
             }
             else if (securityStat.fillAmount == 1)
             {
-
+                OnGameOver.Invoke(gameOver.SecurityUp);
             }
             else
             {
                 NextCard();
             }
-
         }
 
         IEnumerator ChangeColor(Image img, bool isPositive)
