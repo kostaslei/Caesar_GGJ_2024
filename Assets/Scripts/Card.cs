@@ -22,7 +22,7 @@ namespace GGJ
         public bool money;
         public bool security;
         public difficulty diff;
-        public Image character_art;
+        public string character_art;
         public string description;
         public Option top = new Option();
         public Option bottom = new Option();
