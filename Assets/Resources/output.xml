@@ -36,9 +36,9 @@
     <Left_Security>2</Left_Security>
     <Left_Achievement>2</Left_Achievement>
     <Left_Extra>2</Left_Extra>
-    <Right_Audience>1</Right_Audience>
-    <Right_Money>1</Right_Money>
-    <Right_Security>1</Right_Security>
+    <Right_Audience>-1</Right_Audience>
+    <Right_Money>-1</Right_Money>
+    <Right_Security>-0.5</Right_Security>
     <Right_Achievements>1</Right_Achievements>
     <Right_Extra>1</Right_Extra>
   </row>
