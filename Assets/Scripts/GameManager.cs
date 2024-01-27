@@ -9,7 +9,7 @@ namespace GGJ
 {
     public class GameManager : MonoBehaviour
     {
-        int dayIndex = 0;
+        public int dayIndex = 0;
         public TMP_Text daysCounter;
 
         [Header("STATS")]
