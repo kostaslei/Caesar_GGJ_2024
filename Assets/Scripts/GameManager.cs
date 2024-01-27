@@ -18,6 +18,7 @@ namespace GGJ
         public Image audienceStat;
         public Image moneyStat;
         public Image securityStat;
+        public GameObject audienceIndicator, moneyIndicator, securityIndicator;
 
         [Header("EVENT")]
         public Image eventImage;
@@ -36,8 +37,6 @@ namespace GGJ
         public static UnityEvent<gameOver> OnGameOver = new UnityEvent<gameOver>();
 
 
-
-
         private void Awake()
         {
             cards = DataHandler.getData();
@@ -53,6 +52,30 @@ namespace GGJ
         }
 
         // Update is called once per frame
+        private void Update()
+        {
+            
+        }
+
+        public void OnPointerEnterOption(int index)
+        {
+            Option hoveringOption;
+
+            if (index == 0) { hoveringOption = currentCard.top; }
+            else { hoveringOption = currentCard.bottom; } 
+
+            if (hoveringOption.audience != 0) { audienceIndicator.SetActive(true); }
+            if (hoveringOption.money != 0) { moneyIndicator.SetActive(true); }
+            if (hoveringOption.security != 0) { securityIndicator.SetActive(true); }
+        }
+
+        public void OnPointerExitOption()
+        {
+            audienceIndicator.SetActive(false);
+            moneyIndicator.SetActive(false);
+            securityIndicator.SetActive(false);
+        }
+
         public void NextCard()
         {
             dayIndex++;
