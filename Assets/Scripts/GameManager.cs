@@ -162,20 +162,29 @@ namespace GGJ
 
         IEnumerator FillColor(Image img, float amount)
         {
-            float target = Mathf.Clamp01(img.fillAmount + amount);
-
-            float multiplier = 1;
-
-            if (amount < 0)
+            if (amount != 0)
             {
-                multiplier = -1;
-            }
+                float target = Mathf.Clamp01(img.fillAmount + amount);
+                Debug.Log(target);
 
-            while (img.fillAmount != target)
-            {
-                img.fillAmount += 0.01f * multiplier;
 
-                yield return new WaitForSeconds(0.01f);
+                float multiplier = 1;
+
+                if (amount < 0)
+                {
+                    multiplier = -1;
+                }
+
+                while (true)
+                {
+                    img.fillAmount += 0.01f * multiplier;
+
+                    Debug.Log(img.fillAmount);
+
+                    yield return new WaitForSeconds(0.01f);
+
+                    if (img.fillAmount == target) continue;
+                }
             }
 
             yield return null;
