@@ -25,10 +25,13 @@ namespace GGJ
 
         [Header("DATA")]
         public Option selectedOption;
+        public SpecialEventSO currentSpecialEvent;
 
         Card[] cards;
 
         public static UnityEvent onOptionSelected = new UnityEvent();
+
+
 
 
         private void Awake()
@@ -55,9 +58,9 @@ namespace GGJ
 
         void UpdateStats()
         {
-            moneyStat.fillAmount += selectedOption.audience;
-            audienceStat.fillAmount += selectedOption.money;
-            securityStat.fillAmount += selectedOption.security;
+            moneyStat.fillAmount += selectedOption.audience + currentSpecialEvent.audience;
+            audienceStat.fillAmount += selectedOption.money + currentSpecialEvent.money;
+            securityStat.fillAmount += selectedOption.security + currentSpecialEvent.security;
         }
 
         public void SetSelectedOption(int i)
