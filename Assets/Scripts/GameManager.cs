@@ -38,7 +38,6 @@ namespace GGJ
         private void Awake()
         {
             cards = DataHandler.getData();
-
             currentCard = SetCard(cards[0]);
         }
 
@@ -51,9 +50,9 @@ namespace GGJ
         }
 
         // Update is called once per frame
-        void Update()
+        public void NextCard()
         {
-
+            currentCard = SetCard(cards[dayIndex]);
         }
 
         void UpdateStats()
@@ -79,6 +78,8 @@ namespace GGJ
 
         public Card SetCard(Card card)
         {
+            daysCounter.text = dayIndex + " Days";
+            dayIndex++;
             eventDescription.text = card.description;
             option1.GetComponentInChildren<TMP_Text>().text = card.top.text;
             option2.GetComponentInChildren<TMP_Text>().text = card.bottom.text;
