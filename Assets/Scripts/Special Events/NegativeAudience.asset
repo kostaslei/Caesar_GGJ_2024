@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c4b1b8b1a531854a87c3760f8b6c840, type: 3}
   m_Name: NegativeAudience
   m_EditorClassIdentifier: 
-  audience: 0.15
+  audience: -0.15
   money: 0
   security: 0
