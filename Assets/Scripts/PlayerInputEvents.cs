@@ -4,6 +4,9 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
 
+
+[CreateAssetMenu]
+
 public class NewBehaviourScript : MonoBehaviour
 {
     public UnityEvent OGCs;
