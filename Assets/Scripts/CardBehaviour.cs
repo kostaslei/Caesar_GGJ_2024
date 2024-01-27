@@ -1,31 +1,38 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CardBehaviour : MonoBehaviour
 {
-    private Rigidbody2D _rigidbody2D;
+    public enum difficulty { tutorial, veryEasy, easy, medium, hard, veryHard, main_story_1, main_story_2, main_story_3, main_story_4, main_story_5, main_story_6, main_story_7 };
+    public class Option
+    {
+        public string text;
+        public float audience, money, security;
+        public string achievement, extra;
+    }
+
+    public int ID;
+    public bool audience;
+    public bool money;
+    public bool security;
+    public difficulty diff;
+    public Image character_art;
+    public string description;
+    public Option top;
+    public Option bottom;
 
     // Start is called before the first frame update
     void Start()
     {
-        _rigidbody2D = GetComponent<Rigidbody2D>();
+
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        /*
-        if (_rigidbody2D.constraints == RigidbodyConstraints2D.FreezeRotation)
-        {
-            _rigidbody2D.constraints = RigidbodyConstraints2D.None;
-
-        }
-        else if (_rigidbody2D.rotation < 1f && _rigidbody2D.rotation > -1f)
-        {
-            transform.rotation = Quaternion.Euler(0, 0, 0);
-            _rigidbody2D.constraints = RigidbodyConstraints2D.FreezeRotation;
-        }
-        */
+        
     }
 }
