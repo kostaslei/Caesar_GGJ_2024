@@ -5,19 +5,17 @@ using UnityEngine.Events;
 
 public abstract class InfluenceBehaviour
 {
-    public float value;
-
-    // Start is called before the first frame update
-    void Awake()
-    {
-        
-    }
+    private float maxValue = 1;
+    private float minValue = 0;
+    [SerializeField] public float value;
 
     public void ModifyValue(float difference)
     {
         value += difference;
-        if (value == 0) GameOver();
+        if (value <= minValue) GameOverDeficit();
+        if (value >= maxValue) GameOverExcess();
     }
 
-    public abstract void GameOver();
+    public abstract void GameOverDeficit();
+    public abstract void GameOverExcess();
 }
