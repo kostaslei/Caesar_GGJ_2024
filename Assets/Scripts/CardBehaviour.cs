@@ -6,16 +6,18 @@ using UnityEngine.UI;
 
 namespace GGJ
 {
+    public class Option
+    {
+        public string text;
+        public float audience, money, security = 0;
+        public string achievement, extra;
+    }
 
     public class CardBehaviour : MonoBehaviour
     {
         public enum difficulty { tutorial, veryEasy, easy, medium, hard, veryHard, main_story_1, main_story_2, main_story_3, main_story_4, main_story_5, main_story_6, main_story_7 };
-        public class Option
-        {
-            public string text;
-            public float audience, money, security;
-            public string achievement, extra;
-        }
+     
+        public static CardBehaviour instance;
 
         public int ID;
         public bool audience;
@@ -24,12 +26,16 @@ namespace GGJ
         public difficulty diff;
         public Image character_art;
         public string description;
-        public Option top;
-        public Option bottom;
+        public Option top = new Option();
+        public Option bottom = new Option();
 
         // Start is called before the first frame update
         void Start()
         {
+            instance = this;
+
+            top.security = 0.2f;
+            bottom.security = -0.2f;
 
         }
 
@@ -38,6 +44,8 @@ namespace GGJ
         {
 
         }
+
+ 
     }
 }
     
