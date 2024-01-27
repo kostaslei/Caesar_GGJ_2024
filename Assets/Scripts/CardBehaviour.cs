@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Card : MonoBehaviour
+public class CardBehaviour : MonoBehaviour
 {
     private Rigidbody2D _rigidbody2D;
 
@@ -10,12 +10,12 @@ public class Card : MonoBehaviour
     void Start()
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
-        //_rigidbody2D.rotation = 45f;
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
+        /*
         if (_rigidbody2D.constraints == RigidbodyConstraints2D.FreezeRotation)
         {
             _rigidbody2D.constraints = RigidbodyConstraints2D.None;
@@ -26,5 +26,6 @@ public class Card : MonoBehaviour
             transform.rotation = Quaternion.Euler(0, 0, 0);
             _rigidbody2D.constraints = RigidbodyConstraints2D.FreezeRotation;
         }
+        */
     }
 }
