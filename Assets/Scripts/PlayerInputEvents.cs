@@ -4,12 +4,8 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
 
-public class NewBehaviourScript : MonoBehaviour
+public class PlayerInputEvents : MonoBehaviour
 {
-    public UnityEvent OGCs;
-    public UnityEvent OGCp;
-    public UnityEvent OGCc;
-
     /*
     public UnityEvent OSampleEvents;
     public UnityEvent OSampleEventp;
@@ -18,32 +14,16 @@ public class NewBehaviourScript : MonoBehaviour
 
     private PlayerInputActions _inputActions;
 
-
     // Start is called before the first frame update
     void Awake()
     {
-        _inputActions.Player.GrabCard.started += OnGrabCardStarted;
-        _inputActions.Player.GrabCard.performed += OnGrabCardPerformed;
-        _inputActions.Player.GrabCard.canceled += OnGrabCardCanceled;
+        _inputActions = new PlayerInputActions();
 
         /*
         _inputActions.SampleMap.SampleAction.started += OnSampleActionStarted;
         _inputActions.SampleMap.SampleAction.performed += OnSampleActionPerformed;
         _inputActions.SampleMap.SampleAction.canceled += OnSampleActionCanceled;
         */
-    }
-
-    private void OnGrabCardStarted(InputAction.CallbackContext ctx)
-    {
-        OGCs.Invoke();
-    }
-    private void OnGrabCardPerformed(InputAction.CallbackContext ctx)
-    {
-        OGCp.Invoke();
-    }
-    private void OnGrabCardCanceled(InputAction.CallbackContext ctx)
-    {
-        OGCc.Invoke();
     }
 
     /*
