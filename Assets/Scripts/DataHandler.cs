@@ -19,8 +19,10 @@ namespace GGJ
 
             List<Card> eventDataList = new List<Card>();
             Debug.Log(rowNodes.Count);
+            int index = 0;
             foreach (XmlNode rowNode in rowNodes)
             {
+                Debug.Log(index);
                 Card cards = new Card
                 {
                     ID = Int32.Parse(rowNode.SelectSingleNode("ID").InnerText),
@@ -51,7 +53,7 @@ namespace GGJ
                 };
 
                 eventDataList.Add(cards);
-
+                index++;
             }
             return eventDataList.ToArray();
         }

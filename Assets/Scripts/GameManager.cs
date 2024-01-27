@@ -38,7 +38,7 @@ namespace GGJ
         {
             cards = DataHandler.getData();
 
-
+            selectedOption = cards[0].top;
 
         }
 
