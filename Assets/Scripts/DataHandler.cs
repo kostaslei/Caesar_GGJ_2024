@@ -8,7 +8,7 @@ namespace GGJ
 {
     public class DataHandler
     {
-        public CardBehaviour[] getData()
+        public static Card[] getData()
         {
             TextAsset xmlFile = Resources.Load<TextAsset>("output");
             // Parse the XML data
@@ -17,20 +17,20 @@ namespace GGJ
             // Parse XML data into array of EventData
             XmlNodeList rowNodes = xmlDoc.SelectNodes("/root/row");
 
-            List<CardBehaviour> eventDataList = new List<CardBehaviour>();
+            List<Card> eventDataList = new List<Card>();
             Debug.Log(rowNodes.Count);
             foreach (XmlNode rowNode in rowNodes)
             {
-                CardBehaviour cards = new CardBehaviour
+                Card cards = new Card
                 {
                     ID = Int32.Parse(rowNode.SelectSingleNode("ID").InnerText),
                     audience = bool.Parse(rowNode.SelectSingleNode("Audience").InnerText),
                     money = bool.Parse(rowNode.SelectSingleNode("Money").InnerText),
                     security = bool.Parse(rowNode.SelectSingleNode("Security").InnerText),
-                    diff = (CardBehaviour.difficulty)Enum.Parse(typeof(CardBehaviour.difficulty), rowNode.SelectSingleNode("Difficulty").InnerText),
+                    diff = (Card.difficulty)Enum.Parse(typeof(Card.difficulty), rowNode.SelectSingleNode("Difficulty").InnerText),
                     character_art = rowNode.SelectSingleNode("Character_Art").InnerText,
                     description = rowNode.SelectSingleNode("Description").InnerText,
-                    top = new CardBehaviour.Option
+                    top = new Option
                     {
                         text = rowNode.SelectSingleNode("Left_Text").InnerText,
                         audience = float.Parse(rowNode.SelectSingleNode("Left_Audience").InnerText),
@@ -39,7 +39,7 @@ namespace GGJ
                         achievement = "",
                         extra = rowNode.SelectSingleNode("Left_Extra").InnerText
                     },
-                    bottom = new CardBehaviour.Option
+                    bottom = new Option
                     {
                         text = rowNode.SelectSingleNode("Right_Text").InnerText,
                         audience = float.Parse(rowNode.SelectSingleNode("Right_Audience").InnerText),
