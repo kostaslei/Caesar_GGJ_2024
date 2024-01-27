@@ -28,6 +28,7 @@ namespace GGJ
         public SpecialEventSO currentSpecialEvent;
 
         Card[] cards;
+        Card currentCard;
 
         public static UnityEvent onOptionSelected = new UnityEvent();
 
@@ -38,8 +39,7 @@ namespace GGJ
         {
             cards = DataHandler.getData();
 
-            selectedOption = cards[0].top;
-
+            currentCard = SetCard(cards[0]);
         }
 
         // Start is called before the first frame update
@@ -65,17 +65,25 @@ namespace GGJ
 
         public void SetSelectedOption(int i)
         {
-            /*
             if (i == 0) 
             {
-                selectedOption = Card.top;
+                selectedOption = currentCard.top;
             }
             else
             {
-                selectedOption = Card.instance.bottom;
+                selectedOption = currentCard.bottom;
             }
-            */
+            
             onOptionSelected.Invoke();
+        }
+
+        public Card SetCard(Card card)
+        {
+            eventDescription.text = card.description;
+            option1.GetComponentInChildren<TMP_Text>().text = card.top.text;
+            option2.GetComponentInChildren<TMP_Text>().text = card.bottom.text;
+
+            return card;
         }
     }
 }
