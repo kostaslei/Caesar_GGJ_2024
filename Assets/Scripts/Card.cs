@@ -26,6 +26,40 @@ namespace GGJ
         public string description;
         public Option top = new Option();
         public Option bottom = new Option();
+
+        public static difficulty StringToDiff(string str)
+        {
+            switch (str)
+            {
+                default:
+                    return difficulty.easy;
+                case "tutorial":
+                    return difficulty.tutorial;
+                case "very easy":
+                    return difficulty.veryEasy;
+                case "easy":
+                    return difficulty.easy;
+                case "medium":
+                    return difficulty.medium;
+                case "hard":
+                    return difficulty.hard;
+                case "very hard":
+                    return difficulty.veryHard;
+                case "main_story_1":
+                    return difficulty.main_story_1;
+                case "main_story_2":
+                    return difficulty.main_story_2;
+                case "main_story_3":
+                    return difficulty.main_story_3;
+                case "main_story_4":
+                    return difficulty.main_story_4;
+                case "main_story_5":
+                    return difficulty.main_story_5;
+                case "main_story_6":
+                    return difficulty.main_story_6;
+                case "main_story_7":
+                    return difficulty.main_story_7;
+            }
+        }
     }
 }
-    
