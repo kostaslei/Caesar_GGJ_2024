@@ -25,7 +25,7 @@ public class EventData
     public string RightAchievements { get; set; }
     public string RightExtra { get; set; }
 
-    public EventData[] getData()
+    public static EventData[] getData()
     {
         TextAsset xmlFile = Resources.Load<TextAsset>("output");
         // Parse the XML data

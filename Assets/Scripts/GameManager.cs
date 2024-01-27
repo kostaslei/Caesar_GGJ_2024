@@ -26,15 +26,25 @@ namespace GGJ
         [Header("DATA")]
         public Option selectedOption;
 
+        Card[] cards;
+
         public static UnityEvent onOptionSelected = new UnityEvent();
 
 
+        private void Awake()
+        {
+            EventData[] events = EventData.getData();
 
+
+
+        }
 
         // Start is called before the first frame update
         void Start()
         {
             onOptionSelected.AddListener(UpdateStats);
+
+
         }
 
         // Update is called once per frame
@@ -52,15 +62,16 @@ namespace GGJ
 
         public void SetSelectedOption(int i)
         {
+            /*
             if (i == 0) 
             {
-                selectedOption = CardBehaviour.instance.top;
+                selectedOption = Card.top;
             }
             else
             {
-                selectedOption = CardBehaviour.instance.bottom;
+                selectedOption = Card.instance.bottom;
             }
-
+            */
             onOptionSelected.Invoke();
         }
     }
