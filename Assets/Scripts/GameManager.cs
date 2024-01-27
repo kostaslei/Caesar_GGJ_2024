@@ -9,6 +9,8 @@ namespace GGJ
 {
     public class GameManager : MonoBehaviour
     {
+        public enum gameOver {AudienceUp, AudienceDown, MoneyUp, MoneyDown, SecurityUp, SecurityDown};
+
         public int dayIndex = 0;
         public TMP_Text daysCounter;
 
@@ -30,7 +32,8 @@ namespace GGJ
         Card[] cards;
         Card currentCard;
 
-        public static UnityEvent onOptionSelected = new UnityEvent();
+        public static UnityEvent OnOptionSelected = new UnityEvent();
+        public static UnityEvent<gameOver> OnGameOver = new UnityEvent<gameOver>();
 
 
 
@@ -44,15 +47,43 @@ namespace GGJ
         // Start is called before the first frame update
         void Start()
         {
-            onOptionSelected.AddListener(UpdateStats);
-
+            OnOptionSelected.AddListener(UpdateStats);
+            OnGameOver.AddListener(GameOverCard);
 
         }
 
         // Update is called once per frame
         public void NextCard()
         {
+            dayIndex++;
             currentCard = SetCard(cards[dayIndex]);
+        }
+
+        public void GameOverCard(gameOver losingCondition)
+        {
+            switch (losingCondition)
+            {
+                case gameOver.AudienceUp:
+                    //currentCard = SetCard(cards[-]);
+                    break;
+                case gameOver.AudienceDown:
+                    //currentCard = SetCard(cards[-]);
+                    break;
+                case gameOver.MoneyUp:
+                    //currentCard = SetCard(cards[-]);
+                    break;
+                case gameOver.MoneyDown:
+                    //currentCard = SetCard(cards[-]);
+                    break;
+                case gameOver.SecurityUp:
+                    //currentCard = SetCard(cards[-]);
+                    break;
+                case gameOver.SecurityDown:
+                    //currentCard = SetCard(cards[-]);
+                    break;
+                default:
+                    break;
+            }
         }
 
         void UpdateStats()
@@ -61,7 +92,34 @@ namespace GGJ
             audienceStat.fillAmount += selectedOption.money + currentSpecialEvent.money;
             securityStat.fillAmount += selectedOption.security + currentSpecialEvent.security;
 
+            if (moneyStat.fillAmount == 0)
+            {
 
+            }
+            else if (moneyStat.fillAmount == 1)
+            {
+
+            }
+            else if (audienceStat.fillAmount == 0)
+            {
+
+            }
+            else if (audienceStat.fillAmount == 1)
+            {
+
+            }
+            else if (securityStat.fillAmount == 0)
+            {
+
+            }
+            else if (securityStat.fillAmount == 1)
+            {
+
+            }
+            else
+            {
+                NextCard();
+            }
         }
 
         public void SetSelectedOption(int i)
@@ -75,13 +133,12 @@ namespace GGJ
                 selectedOption = currentCard.bottom;
             }
             
-            onOptionSelected.Invoke();
+            OnOptionSelected.Invoke();
         }
 
         public Card SetCard(Card card)
         {
             daysCounter.text = dayIndex + " Days";
-            dayIndex++;
             eventDescription.text = card.description;
             option1.GetComponentInChildren<TMP_Text>().text = card.top.text;
             option2.GetComponentInChildren<TMP_Text>().text = card.bottom.text;
