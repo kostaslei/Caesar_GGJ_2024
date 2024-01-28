@@ -165,10 +165,8 @@ namespace GGJ
             if (amount != 0)
             {
                 float target = Mathf.Clamp01(img.fillAmount + amount);
-                Debug.Log(target);
 
-
-                float multiplier = 1;
+                int multiplier = 1;
 
                 if (amount < 0)
                 {
@@ -179,11 +177,9 @@ namespace GGJ
                 {
                     img.fillAmount += 0.01f * multiplier;
 
-                    Debug.Log(img.fillAmount);
-
                     yield return new WaitForSeconds(0.01f);
 
-                    if (img.fillAmount == target) continue;
+                    if (Mathf.Abs(img.fillAmount - target) <= 0.001f) break;
                 }
             }
 
