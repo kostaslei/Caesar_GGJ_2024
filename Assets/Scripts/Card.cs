@@ -44,7 +44,7 @@ namespace GGJ
                     return difficulty.medium;
                 case "hard":
                     return difficulty.hard;
-                case "very hard":
+                case "veryHard":
                     return difficulty.veryHard;
                 case "main_story_1":
                     return difficulty.main_story_1;
@@ -60,6 +60,10 @@ namespace GGJ
                     return difficulty.main_story_6;
                 case "main_story_7":
                     return difficulty.main_story_7;
+                case "end":
+                    return difficulty.main_story_7;
+                
+                    
             }
         }
     }
