@@ -98,7 +98,7 @@ namespace GGJ
         {
             //dayIndex = 0;
             //daysCounter.text = dayIndex + " Days";
-            MenuManager.EnterMainMenu();
+            //MenuManager.EnterMainMenu();
             switch (losingCondition)
             {
                 case gameOver.AudienceUp:
