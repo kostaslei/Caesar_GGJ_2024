@@ -17,7 +17,7 @@ namespace GGJ
     {
         public enum difficulty { tutorial, veryEasy, easy, medium, hard, veryHard, main_story_1, main_story_2, main_story_3, main_story_4, main_story_5, main_story_6, main_story_7, end };
      
-        public int DAY;
+        public int DAY = 0;
         public bool audience;
         public bool money;
         public bool security;

@@ -233,7 +233,7 @@ namespace GGJ
 
         public Card SetCard(Card card)
         {
-            daysCounter.text = currentCard.DAY + " Days";
+            daysCounter.text = card.DAY + " Days";
             eventDescription.text = card.description;
             option1.GetComponentInChildren<TMP_Text>().text = card.top.text;
             option2.GetComponentInChildren<TMP_Text>().text = card.bottom.text;

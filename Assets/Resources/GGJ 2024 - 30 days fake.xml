@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
   <row>
-    <ID>1</ID>
+    <DAY>1</DAY>
     <Audience>FALSE</Audience>
     <Money>TRUE</Money>
     <Security>FALSE</Security>
@@ -23,7 +23,7 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <ID>1</ID>
+    <DAY>1</DAY>
     <Audience>FALSE</Audience>
     <Money>FALSE</Money>
     <Security>FALSE</Security>
@@ -45,7 +45,7 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <ID>2</ID>
+    <DAY>2</DAY>
     <Audience>TRUE</Audience>
     <Money>FALSE</Money>
     <Security>FALSE</Security>
@@ -67,7 +67,7 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <ID>3</ID>
+    <DAY>3</DAY>
     <Audience>TRUE</Audience>
     <Money>FALSE</Money>
     <Security>FALSE</Security>
@@ -89,14 +89,14 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <ID>3</ID>
+    <DAY>3</DAY>
     <Audience>FALSE</Audience>
     <Money>TRUE</Money>
     <Security>FALSE</Security>
     <Difficulty>tutorial</Difficulty>
     <Name>Business woman</Name>
     <Character_Art>image_4</Character_Art>
-    <Description>We still have tickets for toID at sale. Should we keep the full price or apply last-minute discounts?</Description>
+    <Description>We still have tickets for today at sale. Should we keep the full price or apply last-minute discounts?</Description>
     <Left_Text>Keep the prices. </Left_Text>
     <Right_Text>Discounts</Right_Text>
     <Left_Audience>0</Left_Audience>
@@ -111,7 +111,7 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <ID>4</ID>
+    <DAY>4</DAY>
     <Audience>TRUE</Audience>
     <Money>TRUE</Money>
     <Security>FALSE</Security>
@@ -133,7 +133,7 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <ID>5</ID>
+    <DAY>5</DAY>
     <Audience>TRUE</Audience>
     <Money>TRUE</Money>
     <Security>TRUE</Security>
@@ -155,7 +155,7 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <ID>6</ID>
+    <DAY>6</DAY>
     <Audience>TRUE</Audience>
     <Money>FALSE</Money>
     <Security>FALSE</Security>
@@ -177,7 +177,7 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <ID>7</ID>
+    <DAY>7</DAY>
     <Audience>TRUE</Audience>
     <Money>FALSE</Money>
     <Security>TRUE</Security>
@@ -199,7 +199,7 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <ID>7</ID>
+    <DAY>7</DAY>
     <Audience>FALSE</Audience>
     <Money>FALSE</Money>
     <Security>FALSE</Security>
@@ -221,7 +221,7 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <ID>8</ID>
+    <DAY>8</DAY>
     <Audience>TRUE</Audience>
     <Money>TRUE</Money>
     <Security>FALSE</Security>
@@ -243,7 +243,7 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <ID>9</ID>
+    <DAY>9</DAY>
     <Audience>TRUE</Audience>
     <Money>TRUE</Money>
     <Security>FALSE</Security>
@@ -265,7 +265,7 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <ID>10</ID>
+    <DAY>10</DAY>
     <Audience>TRUE</Audience>
     <Money>TRUE</Money>
     <Security>FALSE</Security>
@@ -287,7 +287,7 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <ID>11</ID>
+    <DAY>11</DAY>
     <Audience>TRUE</Audience>
     <Money>TRUE</Money>
     <Security>TRUE</Security>
@@ -309,14 +309,14 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <ID>11</ID>
+    <DAY>11</DAY>
     <Audience>TRUE</Audience>
     <Money>FALSE</Money>
     <Security>TRUE</Security>
     <Difficulty>medium</Difficulty>
     <Name>Business woman</Name>
     <Character_Art></Character_Art>
-    <Description>The tickets for toID are oversold. People with tickets can&apos;t get in. Open the gates for them?</Description>
+    <Description>The tickets for today are oversold. People with tickets can&apos;t get in. Open the gates for them?</Description>
     <Left_Text>Yes</Left_Text>
     <Right_Text>No</Right_Text>
     <Left_Audience>0.1</Left_Audience>
@@ -331,7 +331,7 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <ID>12</ID>
+    <DAY>12</DAY>
     <Audience>FALSE</Audience>
     <Money>TRUE</Money>
     <Security>TRUE</Security>
@@ -353,7 +353,7 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <ID>13</ID>
+    <DAY>13</DAY>
     <Audience>TRUE</Audience>
     <Money>TRUE</Money>
     <Security>FALSE</Security>
@@ -375,7 +375,7 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <ID>14</ID>
+    <DAY>14</DAY>
     <Audience>TRUE</Audience>
     <Money>TRUE</Money>
     <Security>FALSE</Security>
@@ -397,7 +397,7 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <ID>14</ID>
+    <DAY>14</DAY>
     <Audience>FALSE</Audience>
     <Money>FALSE</Money>
     <Security>FALSE</Security>
@@ -419,7 +419,7 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <ID>15</ID>
+    <DAY>15</DAY>
     <Audience>FALSE</Audience>
     <Money>TRUE</Money>
     <Security>TRUE</Security>
@@ -441,7 +441,7 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <ID>16</ID>
+    <DAY>16</DAY>
     <Audience>TRUE</Audience>
     <Money>FALSE</Money>
     <Security>TRUE</Security>
@@ -463,7 +463,7 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <ID>17</ID>
+    <DAY>17</DAY>
     <Audience>TRUE</Audience>
     <Money>TRUE</Money>
     <Security>TRUE</Security>
@@ -485,7 +485,7 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <ID>18</ID>
+    <DAY>18</DAY>
     <Audience>TRUE</Audience>
     <Money>TRUE</Money>
     <Security>FALSE</Security>
@@ -507,7 +507,7 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <ID>19</ID>
+    <DAY>19</DAY>
     <Audience>TRUE</Audience>
     <Money>TRUE</Money>
     <Security>TRUE</Security>
@@ -529,7 +529,7 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <ID>20</ID>
+    <DAY>20</DAY>
     <Audience>TRUE</Audience>
     <Money>FALSE</Money>
     <Security>TRUE</Security>
@@ -551,7 +551,7 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <ID>20</ID>
+    <DAY>20</DAY>
     <Audience>FALSE</Audience>
     <Money>TRUE</Money>
     <Security>TRUE</Security>
@@ -573,7 +573,7 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <ID>21</ID>
+    <DAY>21</DAY>
     <Audience>TRUE</Audience>
     <Money>TRUE</Money>
     <Security>FALSE</Security>
@@ -595,7 +595,7 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <ID>21</ID>
+    <DAY>21</DAY>
     <Audience>FALSE</Audience>
     <Money>FALSE</Money>
     <Security>FALSE</Security>
@@ -617,7 +617,7 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <ID>22</ID>
+    <DAY>22</DAY>
     <Audience>TRUE</Audience>
     <Money>FALSE</Money>
     <Security>TRUE</Security>
@@ -639,7 +639,7 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <ID>23</ID>
+    <DAY>23</DAY>
     <Audience>TRUE</Audience>
     <Money>FALSE</Money>
     <Security>TRUE</Security>
@@ -661,7 +661,7 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <ID>24</ID>
+    <DAY>24</DAY>
     <Audience>TRUE</Audience>
     <Money>TRUE</Money>
     <Security>TRUE</Security>
@@ -683,7 +683,7 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <ID>25</ID>
+    <DAY>25</DAY>
     <Audience>TRUE</Audience>
     <Money>TRUE</Money>
     <Security>TRUE</Security>
@@ -705,7 +705,7 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <ID>26</ID>
+    <DAY>26</DAY>
     <Audience>TRUE</Audience>
     <Money>TRUE</Money>
     <Security>FALSE</Security>
@@ -727,7 +727,7 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <ID>27</ID>
+    <DAY>27</DAY>
     <Audience>TRUE</Audience>
     <Money>TRUE</Money>
     <Security>TRUE</Security>
@@ -749,7 +749,7 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <ID>28</ID>
+    <DAY>28</DAY>
     <Audience>TRUE</Audience>
     <Money>TRUE</Money>
     <Security>TRUE</Security>
@@ -771,7 +771,7 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <ID>29</ID>
+    <DAY>29</DAY>
     <Audience>TRUE</Audience>
     <Money>TRUE</Money>
     <Security>TRUE</Security>
@@ -793,7 +793,7 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <ID>30</ID>
+    <DAY>30</DAY>
     <Audience>TRUE</Audience>
     <Money>FALSE</Money>
     <Security>TRUE</Security>
@@ -815,7 +815,7 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <ID>30</ID>
+    <DAY>30</DAY>
     <Audience>FALSE</Audience>
     <Money>FALSE</Money>
     <Security>FALSE</Security>
@@ -837,7 +837,7 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <ID>50</ID>
+    <DAY>50</DAY>
     <Audience>FALSE</Audience>
     <Money>FALSE</Money>
     <Security>FALSE</Security>
@@ -859,7 +859,7 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <ID>51</ID>
+    <DAY>51</DAY>
     <Audience>FALSE</Audience>
     <Money>FALSE</Money>
     <Security>FALSE</Security>
@@ -881,7 +881,7 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <ID>52</ID>
+    <DAY>52</DAY>
     <Audience>FALSE</Audience>
     <Money>FALSE</Money>
     <Security>FALSE</Security>
@@ -903,7 +903,7 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <ID>53</ID>
+    <DAY>53</DAY>
     <Audience>FALSE</Audience>
     <Money>FALSE</Money>
     <Security>FALSE</Security>
@@ -925,7 +925,7 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <ID>54</ID>
+    <DAY>54</DAY>
     <Audience>FALSE</Audience>
     <Money>FALSE</Money>
     <Security>FALSE</Security>
@@ -947,7 +947,7 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <ID>55</ID>
+    <DAY>55</DAY>
     <Audience>FALSE</Audience>
     <Money>FALSE</Money>
     <Security>FALSE</Security>
