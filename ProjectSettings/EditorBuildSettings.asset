@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/AlexScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 4986cab32be6a3a429ccdb8b3fe3260e
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: d52688bcd9ede95408f245100b9fae63
   m_configObjects: {}
