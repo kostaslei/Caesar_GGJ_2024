@@ -3,12 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Xml;
 using System;
+using System.Linq;
 
 namespace GGJ
 {
     public class DataHandler
     {
-        public static Card[] getData()
+
+        public Card[] events;
+
+        public DataHandler()
+        {
+            events = getData();
+        }
+
+        private static Card[] getData()
         {
             TextAsset xmlFile = Resources.Load<TextAsset>("output");
             // Parse the XML data
@@ -30,7 +39,6 @@ namespace GGJ
                     money = bool.Parse(rowNode.SelectSingleNode("Money").InnerText),
                     security = bool.Parse(rowNode.SelectSingleNode("Security").InnerText),
                     diff = (Card.difficulty)Enum.Parse(typeof(Card.difficulty), rowNode.SelectSingleNode("Difficulty").InnerText),
-                    name = rowNode.SelectSingleNode("Name").InnerText,
                     character_art = rowNode.SelectSingleNode("Character_Art").InnerText,
                     description = rowNode.SelectSingleNode("Description").InnerText,
                     top = new Option
@@ -57,6 +65,11 @@ namespace GGJ
                 index++;
             }
             return eventDataList.ToArray();
+        }
+
+        public Card[] getDataByDifficulty(Card.difficulty difficulty)
+        {
+            return events.Where(dict => dict.diff == difficulty).ToArray();
         }
     }
 }

@@ -35,11 +35,13 @@ namespace GGJ
 
         public static UnityEvent OnOptionSelected = new UnityEvent();
         public static UnityEvent<gameOver> OnGameOver = new UnityEvent<gameOver>();
+        private DataHandler dataHandler;
 
 
         private void Awake()
         {
-            cards = DataHandler.getData();
+            dataHandler = new DataHandler();
+            cards = dataHandler.events;
             currentCard = SetCard(cards[0]);
         }
 
