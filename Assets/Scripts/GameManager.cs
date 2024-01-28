@@ -235,6 +235,8 @@ namespace GGJ
         public Card SetCard(Card card)
         {
             daysCounter.text = card.DAY + " Days";
+            eventImage.sprite = Resources.Load<Sprite>(card.character_art);
+            Debug.Log(card.character_art);
             eventDescription.text = card.description;
             option1.GetComponentInChildren<TMP_Text>().text = card.top.text;
             option2.GetComponentInChildren<TMP_Text>().text = card.bottom.text;
