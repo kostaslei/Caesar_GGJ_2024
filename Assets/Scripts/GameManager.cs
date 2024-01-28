@@ -36,6 +36,9 @@ namespace GGJ
 
         public static UnityEvent OnOptionSelected = new UnityEvent();
         public static UnityEvent<gameOver> OnGameOver = new UnityEvent<gameOver>();
+        private UnityEvent<float> onProgress;
+        private UnityEvent onFillCompleted;
+
         private DataHandler dataHandler;
 
 
@@ -170,24 +173,19 @@ namespace GGJ
             if (amount != 0)
             {
                 float target = Mathf.Clamp01(img.fillAmount + amount);
+                float time = 0;
+                float speed = 2.0f;
+                float initialProgress = img.fillAmount;
 
-                int multiplier = 1;
-
-                if (amount < 0)
+                while (time < 1)
                 {
-                    multiplier = -1;
+                    img.fillAmount = Mathf.Lerp(initialProgress, target, time);
+                    time += Time.deltaTime * speed;
+
+                    yield return null;
                 }
 
-                while (!(Mathf.Abs(img.fillAmount - target) == 0.00f))
-                {
-                    img.fillAmount += 0.01f * multiplier;
-                    img.fillAmount = Mathf.Round(img.fillAmount * 100f) / 100;
-
-                    Debug.Log(img.fillAmount);
-
-                    yield return new WaitForSeconds(0.01f);
-
-                }
+                img.fillAmount = target;
             }
 
             yield return null;

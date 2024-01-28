@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <row>
+    <ID>1</ID>
+    <Audience>FALSE</Audience>
+    <Money>TRUE</Money>
+    <Security>FALSE</Security>
+    <Difficulty>tutorial</Difficulty>
+    <Name>Business woman</Name>
+    <Character_Art>image_1</Character_Art>
+    <Description>The show will start. Should we go with the lights show, or the water show?</Description>
+    <Left_Text>Lights!</Left_Text>
+    <Right_Text>Water!</Right_Text>
+    <Left_Audience>0</Left_Audience>
+    <Left_Money>0</Left_Money>
+    <Left_Security>0</Left_Security>
+    <Left_Achievement></Left_Achievement>
+    <Left_Extra></Left_Extra>
+    <Right_Audience>0</Right_Audience>
+    <Right_Money>0</Right_Money>
+    <Right_Security>0</Right_Security>
+    <Right_Achievements></Right_Achievements>
+    <Right_Extra></Right_Extra>
+  </row>
+  <row>
+    <ID></ID>
+    <Audience>FALSE</Audience>
+    <Money>FALSE</Money>
+    <Security>FALSE</Security>
+    <Difficulty>main_story1</Difficulty>
+    <Name>Caesar</Name>
+    <Character_Art></Character_Art>
+    <Description>Caesar will arrive next week. We should use this first week to get everything ready. </Description>
+    <Left_Text>I&apos;m ready!</Left_Text>
+    <Right_Text>Oh boy...</Right_Text>
+    <Left_Audience>0</Left_Audience>
+    <Left_Money>0</Left_Money>
+    <Left_Security>0</Left_Security>
+    <Left_Achievement></Left_Achievement>
+    <Left_Extra></Left_Extra>
+    <Right_Audience>0</Right_Audience>
+    <Right_Money>0</Right_Money>
+    <Right_Security>0</Right_Security>
+    <Right_Achievements></Right_Achievements>
+    <Right_Extra></Right_Extra>
+  </row>
+  <row>
+    <ID>2</ID>
+    <Audience>TRUE</Audience>
+    <Money>FALSE</Money>
+    <Security>FALSE</Security>
+    <Difficulty>tutorial</Difficulty>
+    <Name>Business woman</Name>
+    <Character_Art>image_2</Character_Art>
+    <Description>We are a little behind schedule. Call some clowns to entertain the audiencie meanwhile everything is ready?</Description>
+    <Left_Text>Yes</Left_Text>
+    <Right_Text>No</Right_Text>
+    <Left_Audience>0.15</Left_Audience>
+    <Left_Money>0</Left_Money>
+    <Left_Security>0</Left_Security>
+    <Left_Achievement></Left_Achievement>
+    <Left_Extra></Left_Extra>
+    <Right_Audience>-0.15</Right_Audience>
+    <Right_Money>0</Right_Money>
+    <Right_Security>0</Right_Security>
+    <Right_Achievements></Right_Achievements>
+    <Right_Extra></Right_Extra>
+  </row>
+  <row>
+    <ID>3</ID>
+    <Audience>TRUE</Audience>
+    <Money>FALSE</Money>
+    <Security>FALSE</Security>
+    <Difficulty>easy</Difficulty>
+    <Name>Business woman</Name>
+    <Character_Art>image_3</Character_Art>
+    <Description>People are coming from all over Planet Earth to enjoy this show. Give salutations to the crowds?</Description>
+    <Left_Text>Yes</Left_Text>
+    <Right_Text>Let&apos;s not waste time</Right_Text>
+    <Left_Audience>0.1</Left_Audience>
+    <Left_Money>0</Left_Money>
+    <Left_Security>0</Left_Security>
+    <Left_Achievement></Left_Achievement>
+    <Left_Extra></Left_Extra>
+    <Right_Audience>0</Right_Audience>
+    <Right_Money>0</Right_Money>
+    <Right_Security>0</Right_Security>
+    <Right_Achievements></Right_Achievements>
+    <Right_Extra></Right_Extra>
+  </row>
+  <row>
+    <ID>3</ID>
+    <Audience>FALSE</Audience>
+    <Money>TRUE</Money>
+    <Security>FALSE</Security>
+    <Difficulty>tutorial</Difficulty>
+    <Name>Business woman</Name>
+    <Character_Art>image_4</Character_Art>
+    <Description>We still have tickets for toID at sale. Should we keep the full price or apply last-minute discounts?</Description>
+    <Left_Text>Keep the prices. </Left_Text>
+    <Right_Text>Discounts</Right_Text>
+    <Left_Audience>0</Left_Audience>
+    <Left_Money>0.15</Left_Money>
+    <Left_Security>0</Left_Security>
+    <Left_Achievement></Left_Achievement>
+    <Left_Extra></Left_Extra>
+    <Right_Audience>0</Right_Audience>
+    <Right_Money>-0.15</Right_Money>
+    <Right_Security>0</Right_Security>
+    <Right_Achievements></Right_Achievements>
+    <Right_Extra></Right_Extra>
+  </row>
+  <row>
+    <ID>4</ID>
+    <Audience>TRUE</Audience>
+    <Money>TRUE</Money>
+    <Security>FALSE</Security>
+    <Difficulty>easy</Difficulty>
+    <Name>Business woman</Name>
+    <Character_Art></Character_Art>
+    <Description>A moondust storm is approaching. Should we install the awning?</Description>
+    <Left_Text>Yes</Left_Text>
+    <Right_Text>No</Right_Text>
+    <Left_Audience>0.1</Left_Audience>
+    <Left_Money>-0.1</Left_Money>
+    <Left_Security>0</Left_Security>
+    <Left_Achievement></Left_Achievement>
+    <Left_Extra></Left_Extra>
+    <Right_Audience>-0.1</Right_Audience>
+    <Right_Money>0.1</Right_Money>
+    <Right_Security>0</Right_Security>
+    <Right_Achievements></Right_Achievements>
+    <Right_Extra></Right_Extra>
+  </row>
+  <row>
+    <ID>5</ID>
+    <Audience>TRUE</Audience>
+    <Money>TRUE</Money>
+    <Security>TRUE</Security>
+    <Difficulty>easy</Difficulty>
+    <Name>Security guard</Name>
+    <Character_Art></Character_Art>
+    <Description>The temperature of the arena is raising rapidly. It looks like the sky dome might be malfunctioning. Repair it?</Description>
+    <Left_Text>Yes</Left_Text>
+    <Right_Text>No</Right_Text>
+    <Left_Audience>0.1</Left_Audience>
+    <Left_Money>-0.1</Left_Money>
+    <Left_Security>0.1</Left_Security>
+    <Left_Achievement></Left_Achievement>
+    <Left_Extra></Left_Extra>
+    <Right_Audience>-0.1</Right_Audience>
+    <Right_Money>0</Right_Money>
+    <Right_Security>0.1</Right_Security>
+    <Right_Achievements></Right_Achievements>
+    <Right_Extra></Right_Extra>
+  </row>
+  <row>
+    <ID>6</ID>
+    <Audience>TRUE</Audience>
+    <Money>FALSE</Money>
+    <Security>FALSE</Security>
+    <Difficulty>easy</Difficulty>
+    <Name>Business woman</Name>
+    <Character_Art></Character_Art>
+    <Description>People are coming from all over Planet Earth to enjoy this show. Give salutations to the crowds?</Description>
+    <Left_Text>Yes</Left_Text>
+    <Right_Text>Let&apos;s not waste time</Right_Text>
+    <Left_Audience>0.1</Left_Audience>
+    <Left_Money>0</Left_Money>
+    <Left_Security>0</Left_Security>
+    <Left_Achievement></Left_Achievement>
+    <Left_Extra></Left_Extra>
+    <Right_Audience>0</Right_Audience>
+    <Right_Money>0</Right_Money>
+    <Right_Security>0</Right_Security>
+    <Right_Achievements></Right_Achievements>
+    <Right_Extra></Right_Extra>
+  </row>
+  <row>
+    <ID>7</ID>
+    <Audience>TRUE</Audience>
+    <Money>FALSE</Money>
+    <Security>TRUE</Security>
+    <Difficulty>Easy</Difficulty>
+    <Name>Security Guard</Name>
+    <Character_Art></Character_Art>
+    <Description>A person streaks the field in the name of the Caesar, make a public punishment?</Description>
+    <Left_Text>Yes</Left_Text>
+    <Right_Text>No</Right_Text>
+    <Left_Audience>-0.2</Left_Audience>
+    <Left_Money>0</Left_Money>
+    <Left_Security>0.2</Left_Security>
+    <Left_Achievement></Left_Achievement>
+    <Left_Extra></Left_Extra>
+    <Right_Audience>0.2</Right_Audience>
+    <Right_Money>0</Right_Money>
+    <Right_Security>-0.2</Right_Security>
+    <Right_Achievements></Right_Achievements>
+    <Right_Extra></Right_Extra>
+  </row>
+  <row>
+    <ID></ID>
+    <Audience>FALSE</Audience>
+    <Money>FALSE</Money>
+    <Security>FALSE</Security>
+    <Difficulty>main_story2</Difficulty>
+    <Name>Caesar</Name>
+    <Character_Art></Character_Art>
+    <Description>The Caesar has arrived! Don&apos;t forget to make him laugh</Description>
+    <Left_Text>Let&apos;s go!</Left_Text>
+    <Right_Text>I won&apos;t</Right_Text>
+    <Left_Audience>0</Left_Audience>
+    <Left_Money>0</Left_Money>
+    <Left_Security>0</Left_Security>
+    <Left_Achievement></Left_Achievement>
+    <Left_Extra></Left_Extra>
+    <Right_Audience>0</Right_Audience>
+    <Right_Money>0</Right_Money>
+    <Right_Security>0</Right_Security>
+    <Right_Achievements></Right_Achievements>
+    <Right_Extra></Right_Extra>
+  </row>
+  <row>
+    <ID>8</ID>
+    <Audience>TRUE</Audience>
+    <Money>TRUE</Money>
+    <Security>FALSE</Security>
+    <Difficulty>Easy</Difficulty>
+    <Name>Business woman</Name>
+    <Character_Art></Character_Art>
+    <Description>Children crave our new Caesar action figure. Do we host a big sale?</Description>
+    <Left_Text>Yes</Left_Text>
+    <Right_Text>No</Right_Text>
+    <Left_Audience>0.2</Left_Audience>
+    <Left_Money>0.15</Left_Money>
+    <Left_Security>0</Left_Security>
+    <Left_Achievement></Left_Achievement>
+    <Left_Extra></Left_Extra>
+    <Right_Audience>-0.15</Right_Audience>
+    <Right_Money>0</Right_Money>
+    <Right_Security>0</Right_Security>
+    <Right_Achievements></Right_Achievements>
+    <Right_Extra></Right_Extra>
+  </row>
+  <row>
+    <ID>9</ID>
+    <Audience>TRUE</Audience>
+    <Money>TRUE</Money>
+    <Security>FALSE</Security>
+    <Difficulty>easy</Difficulty>
+    <Name>Kid</Name>
+    <Character_Art></Character_Art>
+    <Description>Audience members complain that the stadium is not dog friendly. Install dog ramps?</Description>
+    <Left_Text>Yes</Left_Text>
+    <Right_Text>No</Right_Text>
+    <Left_Audience>0.2</Left_Audience>
+    <Left_Money>-0.15</Left_Money>
+    <Left_Security>0</Left_Security>
+    <Left_Achievement></Left_Achievement>
+    <Left_Extra></Left_Extra>
+    <Right_Audience>-0.15</Right_Audience>
+    <Right_Money>0</Right_Money>
+    <Right_Security>0</Right_Security>
+    <Right_Achievements></Right_Achievements>
+    <Right_Extra></Right_Extra>
+  </row>
+  <row>
+    <ID>10</ID>
+    <Audience>TRUE</Audience>
+    <Money>TRUE</Money>
+    <Security>FALSE</Security>
+    <Difficulty>easy</Difficulty>
+    <Name>Caesar</Name>
+    <Character_Art></Character_Art>
+    <Description>Caesar wishes to provide a parting gift of royale kittens at our cost, accept?</Description>
+    <Left_Text>Sure...</Left_Text>
+    <Right_Text>*ouch*</Right_Text>
+    <Left_Audience>0.2</Left_Audience>
+    <Left_Money>-0.15</Left_Money>
+    <Left_Security>0</Left_Security>
+    <Left_Achievement></Left_Achievement>
+    <Left_Extra></Left_Extra>
+    <Right_Audience>0.2</Right_Audience>
+    <Right_Money>-0.2</Right_Money>
+    <Right_Security>0</Right_Security>
+    <Right_Achievements></Right_Achievements>
+    <Right_Extra></Right_Extra>
+  </row>
+  <row>
+    <ID>11</ID>
+    <Audience>TRUE</Audience>
+    <Money>TRUE</Money>
+    <Security>TRUE</Security>
+    <Difficulty>medium</Difficulty>
+    <Name>Chef</Name>
+    <Character_Art></Character_Art>
+    <Description>A new sponsor offered free alcoholic beverages for everyone attending. Accept the offer?</Description>
+    <Left_Text>Cheers!</Left_Text>
+    <Right_Text>No</Right_Text>
+    <Left_Audience>0.1</Left_Audience>
+    <Left_Money>0.1</Left_Money>
+    <Left_Security>-0.1</Left_Security>
+    <Left_Achievement></Left_Achievement>
+    <Left_Extra></Left_Extra>
+    <Right_Audience>0</Right_Audience>
+    <Right_Money>0</Right_Money>
+    <Right_Security>0</Right_Security>
+    <Right_Achievements></Right_Achievements>
+    <Right_Extra></Right_Extra>
+  </row>
+  <row>
+    <ID>11</ID>
+    <Audience>TRUE</Audience>
+    <Money>FALSE</Money>
+    <Security>TRUE</Security>
+    <Difficulty>medium</Difficulty>
+    <Name>Business woman</Name>
+    <Character_Art></Character_Art>
+    <Description>The tickets for toID are oversold. People with tickets can&apos;t get in. Open the gates for them?</Description>
+    <Left_Text>Yes</Left_Text>
+    <Right_Text>No</Right_Text>
+    <Left_Audience>0.1</Left_Audience>
+    <Left_Money>0</Left_Money>
+    <Left_Security>-0.1</Left_Security>
+    <Left_Achievement></Left_Achievement>
+    <Left_Extra></Left_Extra>
+    <Right_Audience>-0.1</Right_Audience>
+    <Right_Money>0</Right_Money>
+    <Right_Security>0</Right_Security>
+    <Right_Achievements></Right_Achievements>
+    <Right_Extra></Right_Extra>
+  </row>
+  <row>
+    <ID>12</ID>
+    <Audience>FALSE</Audience>
+    <Money>TRUE</Money>
+    <Security>TRUE</Security>
+    <Difficulty>medium</Difficulty>
+    <Name>Security guard</Name>
+    <Character_Art></Character_Art>
+    <Description>People are crowding outside the north entrance. Should we send more guards?</Description>
+    <Left_Text>Of course!</Left_Text>
+    <Right_Text>Nah...</Right_Text>
+    <Left_Audience>0</Left_Audience>
+    <Left_Money>-0.1</Left_Money>
+    <Left_Security>0.1</Left_Security>
+    <Left_Achievement></Left_Achievement>
+    <Left_Extra></Left_Extra>
+    <Right_Audience>0</Right_Audience>
+    <Right_Money>0</Right_Money>
+    <Right_Security>-0.1</Right_Security>
+    <Right_Achievements></Right_Achievements>
+    <Right_Extra></Right_Extra>
+  </row>
+  <row>
+    <ID>13</ID>
+    <Audience>TRUE</Audience>
+    <Money>TRUE</Money>
+    <Security>FALSE</Security>
+    <Difficulty>medium</Difficulty>
+    <Name>Business woman</Name>
+    <Character_Art></Character_Art>
+    <Description>The elephants are bigger than you thought and they don&apos;t fit through the doorway. Cancel the elephant number, or bring them through air?</Description>
+    <Left_Text>Bring them by helicopte</Left_Text>
+    <Right_Text>Cancel the show</Right_Text>
+    <Left_Audience>0.1</Left_Audience>
+    <Left_Money>-0.1</Left_Money>
+    <Left_Security>0</Left_Security>
+    <Left_Achievement></Left_Achievement>
+    <Left_Extra></Left_Extra>
+    <Right_Audience>-0.1</Right_Audience>
+    <Right_Money>0</Right_Money>
+    <Right_Security>0</Right_Security>
+    <Right_Achievements></Right_Achievements>
+    <Right_Extra></Right_Extra>
+  </row>
+  <row>
+    <ID>14</ID>
+    <Audience>TRUE</Audience>
+    <Money>TRUE</Money>
+    <Security>FALSE</Security>
+    <Difficulty>medium</Difficulty>
+    <Name>Male Fan</Name>
+    <Character_Art></Character_Art>
+    <Description>The beast taming show has started, and the tamer is loosing. Intervene to save the tamer, or let him die?</Description>
+    <Left_Text>Let him die!</Left_Text>
+    <Right_Text>Kill the beast</Right_Text>
+    <Left_Audience>0.1</Left_Audience>
+    <Left_Money>-0.1</Left_Money>
+    <Left_Security>0</Left_Security>
+    <Left_Achievement></Left_Achievement>
+    <Left_Extra></Left_Extra>
+    <Right_Audience>-0.1</Right_Audience>
+    <Right_Money>0</Right_Money>
+    <Right_Security>0</Right_Security>
+    <Right_Achievements></Right_Achievements>
+    <Right_Extra></Right_Extra>
+  </row>
+  <row>
+    <ID></ID>
+    <Audience>FALSE</Audience>
+    <Money>FALSE</Money>
+    <Security>FALSE</Security>
+    <Difficulty>main_story3</Difficulty>
+    <Name>Caesar</Name>
+    <Character_Art></Character_Art>
+    <Description>The Caesar is not impressed.</Description>
+    <Left_Text>Ok...</Left_Text>
+    <Right_Text>Good to know...</Right_Text>
+    <Left_Audience>0</Left_Audience>
+    <Left_Money>0</Left_Money>
+    <Left_Security>0</Left_Security>
+    <Left_Achievement></Left_Achievement>
+    <Left_Extra></Left_Extra>
+    <Right_Audience></Right_Audience>
+    <Right_Money></Right_Money>
+    <Right_Security></Right_Security>
+    <Right_Achievements></Right_Achievements>
+    <Right_Extra></Right_Extra>
+  </row>
+  <row>
+    <ID>15</ID>
+    <Audience>FALSE</Audience>
+    <Money>TRUE</Money>
+    <Security>TRUE</Security>
+    <Difficulty>medium</Difficulty>
+    <Name>Business woman</Name>
+    <Character_Art></Character_Art>
+    <Description>Gorillas are EXPENSIVE. We could save some money using costumes. Who would know?</Description>
+    <Left_Text>Bring the costumes</Left_Text>
+    <Right_Text>Pay for the gorillas</Right_Text>
+    <Left_Audience>0</Left_Audience>
+    <Left_Money>0.1</Left_Money>
+    <Left_Security>0.1</Left_Security>
+    <Left_Achievement></Left_Achievement>
+    <Left_Extra></Left_Extra>
+    <Right_Audience>0</Right_Audience>
+    <Right_Money>-0.1</Right_Money>
+    <Right_Security>0</Right_Security>
+    <Right_Achievements></Right_Achievements>
+    <Right_Extra></Right_Extra>
+  </row>
+  <row>
+    <ID>16</ID>
+    <Audience>TRUE</Audience>
+    <Money>FALSE</Money>
+    <Security>TRUE</Security>
+    <Difficulty>medium</Difficulty>
+    <Name>Business woman</Name>
+    <Character_Art></Character_Art>
+    <Description>The comedians want to stage a satire against the Caesar. Should we allow them to?</Description>
+    <Left_Text>Yes</Left_Text>
+    <Right_Text>Not a good idea...</Right_Text>
+    <Left_Audience>0.1</Left_Audience>
+    <Left_Money>0</Left_Money>
+    <Left_Security>-0.1</Left_Security>
+    <Left_Achievement></Left_Achievement>
+    <Left_Extra></Left_Extra>
+    <Right_Audience>0</Right_Audience>
+    <Right_Money>0</Right_Money>
+    <Right_Security>0</Right_Security>
+    <Right_Achievements></Right_Achievements>
+    <Right_Extra></Right_Extra>
+  </row>
+  <row>
+    <ID>17</ID>
+    <Audience>TRUE</Audience>
+    <Money>TRUE</Money>
+    <Security>TRUE</Security>
+    <Difficulty>medium</Difficulty>
+    <Name>Male Fan</Name>
+    <Character_Art></Character_Art>
+    <Description>No one is laughing. End the comedy show or let it go on?</Description>
+    <Left_Text>End it now!</Left_Text>
+    <Right_Text>Give them a chance...</Right_Text>
+    <Left_Audience>0.1</Left_Audience>
+    <Left_Money>-0.1</Left_Money>
+    <Left_Security>0</Left_Security>
+    <Left_Achievement></Left_Achievement>
+    <Left_Extra></Left_Extra>
+    <Right_Audience>-0.1</Right_Audience>
+    <Right_Money>0</Right_Money>
+    <Right_Security>-0.1</Right_Security>
+    <Right_Achievements></Right_Achievements>
+    <Right_Extra></Right_Extra>
+  </row>
+  <row>
+    <ID>18</ID>
+    <Audience>TRUE</Audience>
+    <Money>TRUE</Money>
+    <Security>FALSE</Security>
+    <Difficulty>medium</Difficulty>
+    <Name>Business woman</Name>
+    <Character_Art></Character_Art>
+    <Description>The monster trucks are arriving, and the drivers demand a drink before the show. Allow it?</Description>
+    <Left_Text>Why not?</Left_Text>
+    <Right_Text>Not on my watch</Right_Text>
+    <Left_Audience>0.1</Left_Audience>
+    <Left_Money>0.1</Left_Money>
+    <Left_Security>-0.1</Left_Security>
+    <Left_Achievement></Left_Achievement>
+    <Left_Extra></Left_Extra>
+    <Right_Audience>0</Right_Audience>
+    <Right_Money>0</Right_Money>
+    <Right_Security>0</Right_Security>
+    <Right_Achievements></Right_Achievements>
+    <Right_Extra></Right_Extra>
+  </row>
+  <row>
+    <ID>19</ID>
+    <Audience>TRUE</Audience>
+    <Money>TRUE</Money>
+    <Security>TRUE</Security>
+    <Difficulty>medium</Difficulty>
+    <Name>Male fan</Name>
+    <Character_Art></Character_Art>
+    <Description>The church performs an obnoxious royal song. Provide ear plugs for the audience?</Description>
+    <Left_Text>Yes</Left_Text>
+    <Right_Text>No</Right_Text>
+    <Left_Audience>0.15</Left_Audience>
+    <Left_Money>-0.15</Left_Money>
+    <Left_Security>-0.2</Left_Security>
+    <Left_Achievement></Left_Achievement>
+    <Left_Extra></Left_Extra>
+    <Right_Audience>-0.2</Right_Audience>
+    <Right_Money>0</Right_Money>
+    <Right_Security>0.15</Right_Security>
+    <Right_Achievements></Right_Achievements>
+    <Right_Extra></Right_Extra>
+  </row>
+  <row>
+    <ID>20</ID>
+    <Audience>TRUE</Audience>
+    <Money>FALSE</Money>
+    <Security>TRUE</Security>
+    <Difficulty>medium</Difficulty>
+    <Name>Male Fan</Name>
+    <Character_Art></Character_Art>
+    <Description>The royale announcer&apos;s face scares the kids. Parents ask to put a bag over him.</Description>
+    <Left_Text>Yes</Left_Text>
+    <Right_Text>No</Right_Text>
+    <Left_Audience>0.2</Left_Audience>
+    <Left_Money>0</Left_Money>
+    <Left_Security>-0.2</Left_Security>
+    <Left_Achievement></Left_Achievement>
+    <Left_Extra></Left_Extra>
+    <Right_Audience>-0.15</Right_Audience>
+    <Right_Money>0</Right_Money>
+    <Right_Security>0.2</Right_Security>
+    <Right_Achievements></Right_Achievements>
+    <Right_Extra></Right_Extra>
+  </row>
+  <row>
+    <ID>20</ID>
+    <Audience>FALSE</Audience>
+    <Money>TRUE</Money>
+    <Security>TRUE</Security>
+    <Difficulty>medium</Difficulty>
+    <Name>Kid </Name>
+    <Character_Art></Character_Art>
+    <Description>People wish to donate in the name of Caesar. Do we pocket some of the cash?</Description>
+    <Left_Text>Yes</Left_Text>
+    <Right_Text>No</Right_Text>
+    <Left_Audience>0</Left_Audience>
+    <Left_Money>0.2</Left_Money>
+    <Left_Security>-0.2</Left_Security>
+    <Left_Achievement></Left_Achievement>
+    <Left_Extra></Left_Extra>
+    <Right_Audience>0</Right_Audience>
+    <Right_Money>-0.15</Right_Money>
+    <Right_Security>0.15</Right_Security>
+    <Right_Achievements></Right_Achievements>
+    <Right_Extra></Right_Extra>
+  </row>
+  <row>
+    <ID>21</ID>
+    <Audience>TRUE</Audience>
+    <Money>TRUE</Money>
+    <Security>FALSE</Security>
+    <Difficulty>medium</Difficulty>
+    <Name>Business woman</Name>
+    <Character_Art></Character_Art>
+    <Description>Cultists request an audience at the festival. Allow them to preach for the masses?</Description>
+    <Left_Text>Yes</Left_Text>
+    <Right_Text>No</Right_Text>
+    <Left_Audience>-0.2</Left_Audience>
+    <Left_Money>0.15</Left_Money>
+    <Left_Security>0</Left_Security>
+    <Left_Achievement></Left_Achievement>
+    <Left_Extra></Left_Extra>
+    <Right_Audience>0.15</Right_Audience>
+    <Right_Money>-0.2</Right_Money>
+    <Right_Security>0</Right_Security>
+    <Right_Achievements></Right_Achievements>
+    <Right_Extra></Right_Extra>
+  </row>
+  <row>
+    <ID></ID>
+    <Audience>FALSE</Audience>
+    <Money>FALSE</Money>
+    <Security>FALSE</Security>
+    <Difficulty>main_story4</Difficulty>
+    <Name>Caesar</Name>
+    <Character_Art></Character_Art>
+    <Description>The Caesar is smiling.</Description>
+    <Left_Text>Keep up the good work!</Left_Text>
+    <Right_Text>Good, good...</Right_Text>
+    <Left_Audience>0</Left_Audience>
+    <Left_Money>0</Left_Money>
+    <Left_Security>0</Left_Security>
+    <Left_Achievement></Left_Achievement>
+    <Left_Extra></Left_Extra>
+    <Right_Audience>0</Right_Audience>
+    <Right_Money>0</Right_Money>
+    <Right_Security>0</Right_Security>
+    <Right_Achievements></Right_Achievements>
+    <Right_Extra></Right_Extra>
+  </row>
+  <row>
+    <ID>22</ID>
+    <Audience>TRUE</Audience>
+    <Money>FALSE</Money>
+    <Security>TRUE</Security>
+    <Difficulty>medium</Difficulty>
+    <Name>security guard</Name>
+    <Character_Art></Character_Art>
+    <Description>A jewel theif was found at the event. Make a public display of him?</Description>
+    <Left_Text>Yes</Left_Text>
+    <Right_Text>No</Right_Text>
+    <Left_Audience>0.2</Left_Audience>
+    <Left_Money>0</Left_Money>
+    <Left_Security>0.2</Left_Security>
+    <Left_Achievement></Left_Achievement>
+    <Left_Extra></Left_Extra>
+    <Right_Audience>-0.2</Right_Audience>
+    <Right_Money>0</Right_Money>
+    <Right_Security>0.15</Right_Security>
+    <Right_Achievements></Right_Achievements>
+    <Right_Extra></Right_Extra>
+  </row>
+  <row>
+    <ID>23</ID>
+    <Audience>TRUE</Audience>
+    <Money>FALSE</Money>
+    <Security>TRUE</Security>
+    <Difficulty>medium</Difficulty>
+    <Name>Security guard</Name>
+    <Character_Art></Character_Art>
+    <Description>Word of celebrities in the stadium brought a massive crowd. Let in the mob? </Description>
+    <Left_Text>Yes</Left_Text>
+    <Right_Text>No</Right_Text>
+    <Left_Audience>-0.15</Left_Audience>
+    <Left_Money>0</Left_Money>
+    <Left_Security>-0.2</Left_Security>
+    <Left_Achievement></Left_Achievement>
+    <Left_Extra></Left_Extra>
+    <Right_Audience>0.2</Right_Audience>
+    <Right_Money>0</Right_Money>
+    <Right_Security>-0.15</Right_Security>
+    <Right_Achievements></Right_Achievements>
+    <Right_Extra></Right_Extra>
+  </row>
+  <row>
+    <ID>24</ID>
+    <Audience>TRUE</Audience>
+    <Money>TRUE</Money>
+    <Security>TRUE</Security>
+    <Difficulty>medium</Difficulty>
+    <Name>Security guard</Name>
+    <Character_Art></Character_Art>
+    <Description>A war between cats and dogs broke out. Do you hire an exterminator?</Description>
+    <Left_Text>Yes</Left_Text>
+    <Right_Text>No</Right_Text>
+    <Left_Audience>-0.15</Left_Audience>
+    <Left_Money>-0.15</Left_Money>
+    <Left_Security>0.2</Left_Security>
+    <Left_Achievement>Yes</Left_Achievement>
+    <Left_Extra></Left_Extra>
+    <Right_Audience>0.15</Right_Audience>
+    <Right_Money>0</Right_Money>
+    <Right_Security>-0.2</Right_Security>
+    <Right_Achievements></Right_Achievements>
+    <Right_Extra></Right_Extra>
+  </row>
+  <row>
+    <ID>25</ID>
+    <Audience>TRUE</Audience>
+    <Money>TRUE</Money>
+    <Security>TRUE</Security>
+    <Difficulty>hard</Difficulty>
+    <Name>Chef</Name>
+    <Character_Art></Character_Art>
+    <Description>The snacks are running out. We need more supplies. Bring the regular meat, or bring the dubious origin meat?</Description>
+    <Left_Text>Go for regular</Left_Text>
+    <Right_Text>Dubious origin</Right_Text>
+    <Left_Audience>0.1</Left_Audience>
+    <Left_Money>-0.1</Left_Money>
+    <Left_Security>0</Left_Security>
+    <Left_Achievement></Left_Achievement>
+    <Left_Extra></Left_Extra>
+    <Right_Audience>-0.1</Right_Audience>
+    <Right_Money>0.1</Right_Money>
+    <Right_Security>-0.1</Right_Security>
+    <Right_Achievements></Right_Achievements>
+    <Right_Extra></Right_Extra>
+  </row>
+  <row>
+    <ID>26</ID>
+    <Audience>TRUE</Audience>
+    <Money>TRUE</Money>
+    <Security>FALSE</Security>
+    <Difficulty>hard</Difficulty>
+    <Name>Business woman</Name>
+    <Character_Art></Character_Art>
+    <Description>The merchandise is not selling very well. Lower the prices?</Description>
+    <Left_Text>Yes</Left_Text>
+    <Right_Text>No</Right_Text>
+    <Left_Audience>0.1</Left_Audience>
+    <Left_Money>-0.1</Left_Money>
+    <Left_Security>0</Left_Security>
+    <Left_Achievement></Left_Achievement>
+    <Left_Extra></Left_Extra>
+    <Right_Audience>-0.1</Right_Audience>
+    <Right_Money>0</Right_Money>
+    <Right_Security>0</Right_Security>
+    <Right_Achievements></Right_Achievements>
+    <Right_Extra></Right_Extra>
+  </row>
+  <row>
+    <ID>27</ID>
+    <Audience>TRUE</Audience>
+    <Money>TRUE</Money>
+    <Security>TRUE</Security>
+    <Difficulty>hard</Difficulty>
+    <Name>Business woman</Name>
+    <Character_Art></Character_Art>
+    <Description>We have free T-Shirts to give out. Send sellers to the seats, or use the T-Shirt cannon?</Description>
+    <Left_Text>Cannon!</Left_Text>
+    <Right_Text>Just sellers...</Right_Text>
+    <Left_Audience>0.1</Left_Audience>
+    <Left_Money>-0.1</Left_Money>
+    <Left_Security>-0.1</Left_Security>
+    <Left_Achievement></Left_Achievement>
+    <Left_Extra></Left_Extra>
+    <Right_Audience>0</Right_Audience>
+    <Right_Money>0</Right_Money>
+    <Right_Security>0</Right_Security>
+    <Right_Achievements></Right_Achievements>
+    <Right_Extra></Right_Extra>
+  </row>
+  <row>
+    <ID>28</ID>
+    <Audience>TRUE</Audience>
+    <Money>TRUE</Money>
+    <Security>TRUE</Security>
+    <Difficulty>hard</Difficulty>
+    <Name>Business woman</Name>
+    <Character_Art></Character_Art>
+    <Description>We are behind schedule. We need to choose between the fancy puppy show and the wild exotic beasts.</Description>
+    <Left_Text>Puppy show!</Left_Text>
+    <Right_Text>Exotic!</Right_Text>
+    <Left_Audience>0.1</Left_Audience>
+    <Left_Money>-0.1</Left_Money>
+    <Left_Security>0</Left_Security>
+    <Left_Achievement></Left_Achievement>
+    <Left_Extra></Left_Extra>
+    <Right_Audience>0.1</Right_Audience>
+    <Right_Money>0</Right_Money>
+    <Right_Security>-0.1</Right_Security>
+    <Right_Achievements></Right_Achievements>
+    <Right_Extra></Right_Extra>
+  </row>
+  <row>
+    <ID>29</ID>
+    <Audience>TRUE</Audience>
+    <Money>TRUE</Money>
+    <Security>TRUE</Security>
+    <Difficulty>Hard</Difficulty>
+    <Name>Male Fans</Name>
+    <Character_Art></Character_Art>
+    <Description>Some fans request fart horns to blow. Do we indulge their humor?</Description>
+    <Left_Text>Yes</Left_Text>
+    <Right_Text>No</Right_Text>
+    <Left_Audience>0.2</Left_Audience>
+    <Left_Money>0.2</Left_Money>
+    <Left_Security>-0.2</Left_Security>
+    <Left_Achievement></Left_Achievement>
+    <Left_Extra></Left_Extra>
+    <Right_Audience>-0.2</Right_Audience>
+    <Right_Money>0</Right_Money>
+    <Right_Security>0.15</Right_Security>
+    <Right_Achievements></Right_Achievements>
+    <Right_Extra></Right_Extra>
+  </row>
+  <row>
+    <ID>30</ID>
+    <Audience>TRUE</Audience>
+    <Money>FALSE</Money>
+    <Security>TRUE</Security>
+    <Difficulty>very hard</Difficulty>
+    <Name>Male Fans</Name>
+    <Character_Art></Character_Art>
+    <Description>The stand-up bit it&apos;s not working, we must change the material. What should we go with?</Description>
+    <Left_Text>Dad jokes!</Left_Text>
+    <Right_Text>Puns!</Right_Text>
+    <Left_Audience>0.1</Left_Audience>
+    <Left_Money>0</Left_Money>
+    <Left_Security>0</Left_Security>
+    <Left_Achievement></Left_Achievement>
+    <Left_Extra></Left_Extra>
+    <Right_Audience>-0.1</Right_Audience>
+    <Right_Money>0</Right_Money>
+    <Right_Security>-0.1</Right_Security>
+    <Right_Achievements></Right_Achievements>
+    <Right_Extra></Right_Extra>
+  </row>
+  <row>
+    <ID></ID>
+    <Audience></Audience>
+    <Money></Money>
+    <Security></Security>
+    <Difficulty></Difficulty>
+    <Name></Name>
+    <Character_Art></Character_Art>
+    <Description>Congratulations! The festival is over, and everyone is more than happy. This festival will be remembered for ages </Description>
+    <Left_Text></Left_Text>
+    <Right_Text></Right_Text>
+    <Left_Audience></Left_Audience>
+    <Left_Money></Left_Money>
+    <Left_Security></Left_Security>
+    <Left_Achievement></Left_Achievement>
+    <Left_Extra></Left_Extra>
+    <Right_Audience></Right_Audience>
+    <Right_Money></Right_Money>
+    <Right_Security></Right_Security>
+    <Right_Achievements></Right_Achievements>
+    <Right_Extra></Right_Extra>
+  </row>
+</root>
