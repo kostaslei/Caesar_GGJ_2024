@@ -78,8 +78,8 @@ As you know, bread and circus is needed to keep Caesar&apos;s peace.</Descriptio
     <Name>Imperial Consul</Name>
     <Character_Art>image_9</Character_Art>
     <Description>Manage your money wisely, but don&apos;t stack up de arcs! Caesar has expressively ordered to spare no expense in his party.</Description>
-    <Left_Text>Okey dokey!</Left_Text>
-    <Right_Text>Sounds reasonable...</Right_Text>
+    <Left_Text>I like the sound of that!</Left_Text>
+    <Right_Text>Understood</Right_Text>
     <Left_Audience>0</Left_Audience>
     <Left_Money>0</Left_Money>
     <Left_Security>0</Left_Security>
@@ -100,8 +100,8 @@ As you know, bread and circus is needed to keep Caesar&apos;s peace.</Descriptio
     <Name>Imperial Consul</Name>
     <Character_Art>image_9</Character_Art>
     <Description>Don&apos;t overlook safety and protection, but don&apos;t display too much security. We don&apos;t want to ruin all the fun!</Description>
-    <Left_Text></Left_Text>
-    <Right_Text></Right_Text>
+    <Left_Text>Now that will be a challenge!</Left_Text>
+    <Right_Text>Sounds reasonable...</Right_Text>
     <Left_Audience>0</Left_Audience>
     <Left_Money>0</Left_Money>
     <Left_Security>0</Left_Security>
@@ -122,8 +122,8 @@ As you know, bread and circus is needed to keep Caesar&apos;s peace.</Descriptio
     <Name>Imperial Consul</Name>
     <Character_Art>image_9</Character_Art>
     <Description>And don&apos;t forget to make Caesar laugh!</Description>
-    <Left_Text></Left_Text>
-    <Right_Text></Right_Text>
+    <Left_Text>Let the show begin!</Left_Text>
+    <Right_Text>Oh jeez, here we go...</Right_Text>
     <Left_Audience>0</Left_Audience>
     <Left_Money>0</Left_Money>
     <Left_Security>0</Left_Security>
@@ -250,6 +250,28 @@ As you know, bread and circus is needed to keep Caesar&apos;s peace.</Descriptio
     <Audience>TRUE</Audience>
     <Money>TRUE</Money>
     <Security>TRUE</Security>
+    <Difficulty>easy</Difficulty>
+    <Name>Moonera Chief Advisor</Name>
+    <Character_Art>image_5</Character_Art>
+    <Description>A moondust storm is approaching. Should we install the awning?</Description>
+    <Left_Text>Yes</Left_Text>
+    <Right_Text>No</Right_Text>
+    <Left_Audience>0.1</Left_Audience>
+    <Left_Money>-0.1</Left_Money>
+    <Left_Security>0</Left_Security>
+    <Left_Achievement></Left_Achievement>
+    <Left_Extra></Left_Extra>
+    <Right_Audience>-0.1</Right_Audience>
+    <Right_Money>0.1</Right_Money>
+    <Right_Security>0</Right_Security>
+    <Right_Achievements></Right_Achievements>
+    <Right_Extra></Right_Extra>
+  </row>
+  <row>
+    <DAY>5</DAY>
+    <Audience>TRUE</Audience>
+    <Money>TRUE</Money>
+    <Security>TRUE</Security>
     <Difficulty>tutorial</Difficulty>
     <Name>Security Guard</Name>
     <Character_Art>image_1</Character_Art>
@@ -268,33 +290,11 @@ As you know, bread and circus is needed to keep Caesar&apos;s peace.</Descriptio
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <DAY>5</DAY>
-    <Audience>TRUE</Audience>
-    <Money>TRUE</Money>
-    <Security>TRUE</Security>
-    <Difficulty>main_story_2</Difficulty>
-    <Name>Caesar</Name>
-    <Character_Art>image_6</Character_Art>
-    <Description>The Caesar has arrived! Don&apos;t forget to make him laugh</Description>
-    <Left_Text>Let&apos;s go!</Left_Text>
-    <Right_Text>I won&apos;t</Right_Text>
-    <Left_Audience>0</Left_Audience>
-    <Left_Money>0</Left_Money>
-    <Left_Security>0</Left_Security>
-    <Left_Achievement></Left_Achievement>
-    <Left_Extra></Left_Extra>
-    <Right_Audience>0</Right_Audience>
-    <Right_Money>0</Right_Money>
-    <Right_Security>0</Right_Security>
-    <Right_Achievements></Right_Achievements>
-    <Right_Extra></Right_Extra>
-  </row>
-  <row>
     <DAY>6</DAY>
     <Audience>TRUE</Audience>
     <Money>TRUE</Money>
     <Security>TRUE</Security>
-    <Difficulty>easy</Difficulty>
+    <Difficulty>main_story_2</Difficulty>
     <Name>Security guard</Name>
     <Character_Art>image_1</Character_Art>
     <Description>People are crowding outside the north entrance. Should we send more guards?</Description>
@@ -339,9 +339,9 @@ As you know, bread and circus is needed to keep Caesar&apos;s peace.</Descriptio
     <Money>TRUE</Money>
     <Security>TRUE</Security>
     <Difficulty>easy</Difficulty>
-    <Name>Moonera Chief Advisor</Name>
-    <Character_Art>image_5</Character_Art>
-    <Description>A moondust storm is approaching. Should we install the awning?</Description>
+    <Name>Kid</Name>
+    <Character_Art>image_7</Character_Art>
+    <Description>Audience members complain that the stadium is not dog friendly. Install dog ramps?</Description>
     <Left_Text>Yes</Left_Text>
     <Right_Text>No</Right_Text>
     <Left_Audience>0.1</Left_Audience>
@@ -363,44 +363,22 @@ As you know, bread and circus is needed to keep Caesar&apos;s peace.</Descriptio
     <Difficulty>medium</Difficulty>
     <Name>Vendor</Name>
     <Character_Art>image_3</Character_Art>
-    <Description>Children crave our new Caesar action figure. Do we host a big sale?</Description>
+    <Description>Children crave our new Caesar action figure. Do we host a giveaway?</Description>
     <Left_Text>Yes</Left_Text>
     <Right_Text>No</Right_Text>
-    <Left_Audience>0.1</Left_Audience>
-    <Left_Money>0.15</Left_Money>
-    <Left_Security>0</Left_Security>
-    <Left_Achievement></Left_Achievement>
-    <Left_Extra></Left_Extra>
-    <Right_Audience>-0.15</Right_Audience>
-    <Right_Money>-0.1</Right_Money>
-    <Right_Security>0</Right_Security>
-    <Right_Achievements></Right_Achievements>
-    <Right_Extra></Right_Extra>
-  </row>
-  <row>
-    <DAY>10</DAY>
-    <Audience>TRUE</Audience>
-    <Money>TRUE</Money>
-    <Security>TRUE</Security>
-    <Difficulty>easy</Difficulty>
-    <Name>Kid</Name>
-    <Character_Art>image_7</Character_Art>
-    <Description>Audience members complain that the stadium is not dog friendly. Install dog ramps?</Description>
-    <Left_Text>Yes</Left_Text>
-    <Right_Text>No</Right_Text>
-    <Left_Audience>0.2</Left_Audience>
+    <Left_Audience>0.15</Left_Audience>
     <Left_Money>-0.15</Left_Money>
     <Left_Security>0</Left_Security>
     <Left_Achievement></Left_Achievement>
     <Left_Extra></Left_Extra>
     <Right_Audience>-0.15</Right_Audience>
-    <Right_Money>0</Right_Money>
+    <Right_Money>0.15</Right_Money>
     <Right_Security>0</Right_Security>
     <Right_Achievements></Right_Achievements>
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <DAY>11</DAY>
+    <DAY>12</DAY>
     <Audience>TRUE</Audience>
     <Money>TRUE</Money>
     <Security>TRUE</Security>
@@ -422,7 +400,7 @@ As you know, bread and circus is needed to keep Caesar&apos;s peace.</Descriptio
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <DAY>12</DAY>
+    <DAY>13</DAY>
     <Audience>TRUE</Audience>
     <Money>TRUE</Money>
     <Security>TRUE</Security>
@@ -444,7 +422,7 @@ As you know, bread and circus is needed to keep Caesar&apos;s peace.</Descriptio
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <DAY>13</DAY>
+    <DAY>14</DAY>
     <Audience>TRUE</Audience>
     <Money>TRUE</Money>
     <Security>TRUE</Security>
@@ -466,24 +444,24 @@ As you know, bread and circus is needed to keep Caesar&apos;s peace.</Descriptio
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <DAY>14</DAY>
+    <DAY>15</DAY>
     <Audience>TRUE</Audience>
     <Money>TRUE</Money>
     <Security>TRUE</Security>
     <Difficulty>easy</Difficulty>
-    <Name>Male Fan</Name>
+    <Name>Audience Coordinator</Name>
     <Character_Art>image_4</Character_Art>
     <Description>No one is laughing. End the comedy show or let it go on?</Description>
     <Left_Text>End it now!</Left_Text>
     <Right_Text>Give them a chance...</Right_Text>
-    <Left_Audience>0.1</Left_Audience>
-    <Left_Money>-0.1</Left_Money>
+    <Left_Audience>0.15</Left_Audience>
+    <Left_Money>0</Left_Money>
     <Left_Security>0</Left_Security>
     <Left_Achievement></Left_Achievement>
     <Left_Extra></Left_Extra>
-    <Right_Audience>-0.1</Right_Audience>
-    <Right_Money>0</Right_Money>
-    <Right_Security>-0.1</Right_Security>
+    <Right_Audience>-0.15</Right_Audience>
+    <Right_Money>-0.1</Right_Money>
+    <Right_Security>0</Right_Security>
     <Right_Achievements></Right_Achievements>
     <Right_Extra></Right_Extra>
   </row>
@@ -536,20 +514,20 @@ As you know, bread and circus is needed to keep Caesar&apos;s peace.</Descriptio
     <Audience>TRUE</Audience>
     <Money>TRUE</Money>
     <Security>TRUE</Security>
-    <Difficulty>medium</Difficulty>
-    <Name>Male Fan</Name>
+    <Difficulty>veryEasy</Difficulty>
+    <Name>Audience Coordinator</Name>
     <Character_Art>image_4</Character_Art>
-    <Description>The beast taming show has started, and the tamer is loosing. Intervene to save the tamer, or let him die?</Description>
+    <Description>The beast taming show has started, and the tamer is losing. Intervene to save the tamer, or let him die?</Description>
     <Left_Text>Let him die!</Left_Text>
     <Right_Text>Kill the beast</Right_Text>
-    <Left_Audience>-0.15</Left_Audience>
+    <Left_Audience>-0.1</Left_Audience>
     <Left_Money>0</Left_Money>
     <Left_Security>-0.15</Left_Security>
     <Left_Achievement></Left_Achievement>
     <Left_Extra></Left_Extra>
-    <Right_Audience>-0.15</Right_Audience>
-    <Right_Money>0</Right_Money>
-    <Right_Security>0.15</Right_Security>
+    <Right_Audience>0</Right_Audience>
+    <Right_Money>-0.1</Right_Money>
+    <Right_Security>0.1</Right_Security>
     <Right_Achievements></Right_Achievements>
     <Right_Extra></Right_Extra>
   </row>
@@ -562,15 +540,15 @@ As you know, bread and circus is needed to keep Caesar&apos;s peace.</Descriptio
     <Name>Moonera Chief Advisor</Name>
     <Character_Art>image_5</Character_Art>
     <Description>The elephants are bigger than you thought and they don&apos;t fit through the doorway. Cancel the elephant number, or bring them through air?</Description>
-    <Left_Text>Bring them by helicopte</Left_Text>
+    <Left_Text>Bring them by helicopter</Left_Text>
     <Right_Text>Cancel the show</Right_Text>
     <Left_Audience>0.1</Left_Audience>
-    <Left_Money>-0.1</Left_Money>
-    <Left_Security>0</Left_Security>
+    <Left_Money>0</Left_Money>
+    <Left_Security>-0.15</Left_Security>
     <Left_Achievement></Left_Achievement>
     <Left_Extra></Left_Extra>
-    <Right_Audience>-0.1</Right_Audience>
-    <Right_Money>0</Right_Money>
+    <Right_Audience>-0.15</Right_Audience>
+    <Right_Money>0.1</Right_Money>
     <Right_Security>0</Right_Security>
     <Right_Achievements></Right_Achievements>
     <Right_Extra></Right_Extra>
@@ -668,7 +646,7 @@ As you know, bread and circus is needed to keep Caesar&apos;s peace.</Descriptio
     <Audience>TRUE</Audience>
     <Money>TRUE</Money>
     <Security>TRUE</Security>
-    <Difficulty>medium</Difficulty>
+    <Difficulty>hard</Difficulty>
     <Name>Moonera Chief Advisor</Name>
     <Character_Art>image_5</Character_Art>
     <Description>The comedians want to stage a satire against the Caesar. Should we allow them to?</Description>
@@ -676,11 +654,11 @@ As you know, bread and circus is needed to keep Caesar&apos;s peace.</Descriptio
     <Right_Text>Not a good idea...</Right_Text>
     <Left_Audience>0.2</Left_Audience>
     <Left_Money>0</Left_Money>
-    <Left_Security>-0.1</Left_Security>
+    <Left_Security>-0.25</Left_Security>
     <Left_Achievement></Left_Achievement>
     <Left_Extra></Left_Extra>
-    <Right_Audience>0</Right_Audience>
-    <Right_Money>0</Right_Money>
+    <Right_Audience>-0.15</Right_Audience>
+    <Right_Money>0.15</Right_Money>
     <Right_Security>0</Right_Security>
     <Right_Achievements></Right_Achievements>
     <Right_Extra></Right_Extra>
@@ -801,7 +779,7 @@ As you know, bread and circus is needed to keep Caesar&apos;s peace.</Descriptio
     <Money>TRUE</Money>
     <Security>TRUE</Security>
     <Difficulty>medium</Difficulty>
-    <Name>Male fan</Name>
+    <Name>Audience Coordinator</Name>
     <Character_Art>image_4</Character_Art>
     <Description>The church performs an obnoxious royal song. Provide ear plugs for the audience?</Description>
     <Left_Text>Yes</Left_Text>
@@ -867,7 +845,7 @@ As you know, bread and circus is needed to keep Caesar&apos;s peace.</Descriptio
     <Money>TRUE</Money>
     <Security>TRUE</Security>
     <Difficulty>hard</Difficulty>
-    <Name>Male Fan</Name>
+    <Name>Audience Coordinator</Name>
     <Character_Art>image_4</Character_Art>
     <Description>Some fans request fart horns to blow. Do we indulge their humor?</Description>
     <Left_Text>Yes</Left_Text>
