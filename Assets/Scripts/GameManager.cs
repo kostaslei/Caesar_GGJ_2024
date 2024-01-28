@@ -53,6 +53,7 @@ namespace GGJ
             dataHandler = new DataHandler();
             cards = dataHandler.events;
             currentCard = SetCard(cards[0]);
+            daysCounter.text = dayIndex + " Days";
             fillColor = new Color32(119, 195, 245, 255);
         }
 
