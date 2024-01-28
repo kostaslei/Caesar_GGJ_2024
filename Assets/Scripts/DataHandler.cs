@@ -41,6 +41,7 @@ namespace GGJ
                     diff = (Card.difficulty)Enum.Parse(typeof(Card.difficulty), rowNode.SelectSingleNode("Difficulty").InnerText),
                     character_art = rowNode.SelectSingleNode("Character_Art").InnerText,
                     description = rowNode.SelectSingleNode("Description").InnerText,
+                    name = rowNode.SelectSingleNode("Name").InnerText,
                     top = new Option
                     {
                         text = rowNode.SelectSingleNode("Left_Text").InnerText,

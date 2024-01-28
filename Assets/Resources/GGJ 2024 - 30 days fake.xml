@@ -7,7 +7,7 @@
     <Security>FALSE</Security>
     <Difficulty>tutorial</Difficulty>
     <Name>Business woman</Name>
-    <Character_Art>image_1</Character_Art>
+    <Character_Art>image_3</Character_Art>
     <Description>The show will start. Should we go with the lights show, or the water show?</Description>
     <Left_Text>Lights!</Left_Text>
     <Right_Text>Water!</Right_Text>
@@ -29,7 +29,7 @@
     <Security>FALSE</Security>
     <Difficulty>main_story_1</Difficulty>
     <Name>Caesar</Name>
-    <Character_Art></Character_Art>
+    <Character_Art>image_6</Character_Art>
     <Description>Caesar will arrive next week. We should use this first week to get everything ready. </Description>
     <Left_Text>I&apos;m ready!</Left_Text>
     <Right_Text>Oh boy...</Right_Text>
@@ -51,7 +51,7 @@
     <Security>FALSE</Security>
     <Difficulty>tutorial</Difficulty>
     <Name>Business woman</Name>
-    <Character_Art>image_2</Character_Art>
+    <Character_Art>image_3</Character_Art>
     <Description>We are a little behind schedule. Call some clowns to entertain the audiencie meanwhile everything is ready?</Description>
     <Left_Text>Yes</Left_Text>
     <Right_Text>No</Right_Text>
@@ -95,7 +95,7 @@
     <Security>FALSE</Security>
     <Difficulty>tutorial</Difficulty>
     <Name>Business woman</Name>
-    <Character_Art>image_4</Character_Art>
+    <Character_Art>image_3</Character_Art>
     <Description>We still have tickets for today at sale. Should we keep the full price or apply last-minute discounts?</Description>
     <Left_Text>Keep the prices. </Left_Text>
     <Right_Text>Discounts</Right_Text>
@@ -117,7 +117,7 @@
     <Security>FALSE</Security>
     <Difficulty>easy</Difficulty>
     <Name>Business woman</Name>
-    <Character_Art></Character_Art>
+    <Character_Art>image_3</Character_Art>
     <Description>A moondust storm is approaching. Should we install the awning?</Description>
     <Left_Text>Yes</Left_Text>
     <Right_Text>No</Right_Text>
@@ -139,7 +139,7 @@
     <Security>TRUE</Security>
     <Difficulty>easy</Difficulty>
     <Name>Security guard</Name>
-    <Character_Art></Character_Art>
+    <Character_Art>image_1</Character_Art>
     <Description>The temperature of the arena is raising rapidly. It looks like the sky dome might be malfunctioning. Repair it?</Description>
     <Left_Text>Yes</Left_Text>
     <Right_Text>No</Right_Text>
@@ -161,7 +161,7 @@
     <Security>FALSE</Security>
     <Difficulty>easy</Difficulty>
     <Name>Business woman</Name>
-    <Character_Art></Character_Art>
+    <Character_Art>image_3</Character_Art>
     <Description>People are coming from all over Planet Earth to enjoy this show. Give salutations to the crowds?</Description>
     <Left_Text>Yes</Left_Text>
     <Right_Text>Let&apos;s not waste time</Right_Text>
@@ -183,7 +183,7 @@
     <Security>TRUE</Security>
     <Difficulty>easy</Difficulty>
     <Name>Security Guard</Name>
-    <Character_Art></Character_Art>
+    <Character_Art>image_1</Character_Art>
     <Description>A person streaks the field in the name of the Caesar, make a public punishment?</Description>
     <Left_Text>Yes</Left_Text>
     <Right_Text>No</Right_Text>
@@ -205,7 +205,7 @@
     <Security>FALSE</Security>
     <Difficulty>main_story_2</Difficulty>
     <Name>Caesar</Name>
-    <Character_Art></Character_Art>
+    <Character_Art>image_6</Character_Art>
     <Description>The Caesar has arrived! Don&apos;t forget to make him laugh</Description>
     <Left_Text>Let&apos;s go!</Left_Text>
     <Right_Text>I won&apos;t</Right_Text>
@@ -227,7 +227,7 @@
     <Security>FALSE</Security>
     <Difficulty>easy</Difficulty>
     <Name>Business woman</Name>
-    <Character_Art></Character_Art>
+    <Character_Art>image_3</Character_Art>
     <Description>Children crave our new Caesar action figure. Do we host a big sale?</Description>
     <Left_Text>Yes</Left_Text>
     <Right_Text>No</Right_Text>
@@ -249,7 +249,7 @@
     <Security>FALSE</Security>
     <Difficulty>easy</Difficulty>
     <Name>Kid</Name>
-    <Character_Art></Character_Art>
+    <Character_Art>image_5</Character_Art>
     <Description>Audience members complain that the stadium is not dog friendly. Install dog ramps?</Description>
     <Left_Text>Yes</Left_Text>
     <Right_Text>No</Right_Text>
@@ -271,7 +271,7 @@
     <Security>FALSE</Security>
     <Difficulty>easy</Difficulty>
     <Name>Caesar</Name>
-    <Character_Art></Character_Art>
+    <Character_Art>image_6</Character_Art>
     <Description>Caesar wishes to provide a parting gift of royale kittens at our cost, accept?</Description>
     <Left_Text>Sure...</Left_Text>
     <Right_Text>*ouch*</Right_Text>
@@ -293,7 +293,7 @@
     <Security>TRUE</Security>
     <Difficulty>medium</Difficulty>
     <Name>Chef</Name>
-    <Character_Art></Character_Art>
+    <Character_Art>image_2</Character_Art>
     <Description>A new sponsor offered free alcoholic beverages for everyone attending. Accept the offer?</Description>
     <Left_Text>Cheers!</Left_Text>
     <Right_Text>No</Right_Text>
@@ -315,7 +315,7 @@
     <Security>TRUE</Security>
     <Difficulty>medium</Difficulty>
     <Name>Business woman</Name>
-    <Character_Art></Character_Art>
+    <Character_Art>image_3</Character_Art>
     <Description>The tickets for today are oversold. People with tickets can&apos;t get in. Open the gates for them?</Description>
     <Left_Text>Yes</Left_Text>
     <Right_Text>No</Right_Text>
@@ -337,7 +337,7 @@
     <Security>TRUE</Security>
     <Difficulty>medium</Difficulty>
     <Name>Security guard</Name>
-    <Character_Art></Character_Art>
+    <Character_Art>image_1</Character_Art>
     <Description>People are crowding outside the north entrance. Should we send more guards?</Description>
     <Left_Text>Of course!</Left_Text>
     <Right_Text>Nah...</Right_Text>
@@ -359,7 +359,7 @@
     <Security>FALSE</Security>
     <Difficulty>medium</Difficulty>
     <Name>Business woman</Name>
-    <Character_Art></Character_Art>
+    <Character_Art>image_3</Character_Art>
     <Description>The elephants are bigger than you thought and they don&apos;t fit through the doorway. Cancel the elephant number, or bring them through air?</Description>
     <Left_Text>Bring them by helicopte</Left_Text>
     <Right_Text>Cancel the show</Right_Text>
@@ -381,7 +381,7 @@
     <Security>FALSE</Security>
     <Difficulty>medium</Difficulty>
     <Name>Male Fan</Name>
-    <Character_Art></Character_Art>
+    <Character_Art>image_4</Character_Art>
     <Description>The beast taming show has started, and the tamer is loosing. Intervene to save the tamer, or let him die?</Description>
     <Left_Text>Let him die!</Left_Text>
     <Right_Text>Kill the beast</Right_Text>
@@ -403,7 +403,7 @@
     <Security>FALSE</Security>
     <Difficulty>main_story_3</Difficulty>
     <Name>Caesar</Name>
-    <Character_Art></Character_Art>
+    <Character_Art>image_6</Character_Art>
     <Description>The Caesar is not impressed.</Description>
     <Left_Text>Ok...</Left_Text>
     <Right_Text>Good to know...</Right_Text>
@@ -425,7 +425,7 @@
     <Security>TRUE</Security>
     <Difficulty>medium</Difficulty>
     <Name>Business woman</Name>
-    <Character_Art></Character_Art>
+    <Character_Art>image_3</Character_Art>
     <Description>Gorillas are EXPENSIVE. We could save some money using costumes. Who would know?</Description>
     <Left_Text>Bring the costumes</Left_Text>
     <Right_Text>Pay for the gorillas</Right_Text>
@@ -447,7 +447,7 @@
     <Security>TRUE</Security>
     <Difficulty>medium</Difficulty>
     <Name>Business woman</Name>
-    <Character_Art></Character_Art>
+    <Character_Art>image_3</Character_Art>
     <Description>The comedians want to stage a satire against the Caesar. Should we allow them to?</Description>
     <Left_Text>Yes</Left_Text>
     <Right_Text>Not a good idea...</Right_Text>
@@ -491,7 +491,7 @@
     <Security>FALSE</Security>
     <Difficulty>medium</Difficulty>
     <Name>Business woman</Name>
-    <Character_Art></Character_Art>
+    <Character_Art>image_3</Character_Art>
     <Description>The monster trucks are arriving, and the drivers demand a drink before the show. Allow it?</Description>
     <Left_Text>Why not?</Left_Text>
     <Right_Text>Not on my watch</Right_Text>
@@ -513,7 +513,7 @@
     <Security>TRUE</Security>
     <Difficulty>medium</Difficulty>
     <Name>Male fan</Name>
-    <Character_Art></Character_Art>
+    <Character_Art>image_4</Character_Art>
     <Description>The church performs an obnoxious royal song. Provide ear plugs for the audience?</Description>
     <Left_Text>Yes</Left_Text>
     <Right_Text>No</Right_Text>
@@ -535,7 +535,7 @@
     <Security>TRUE</Security>
     <Difficulty>medium</Difficulty>
     <Name>Male Fan</Name>
-    <Character_Art></Character_Art>
+    <Character_Art>image_4</Character_Art>
     <Description>The royale announcer&apos;s face scares the kids. Parents ask to put a bag over him.</Description>
     <Left_Text>Yes</Left_Text>
     <Right_Text>No</Right_Text>
@@ -557,7 +557,7 @@
     <Security>TRUE</Security>
     <Difficulty>medium</Difficulty>
     <Name>Kid </Name>
-    <Character_Art></Character_Art>
+    <Character_Art>image_5</Character_Art>
     <Description>People wish to donate in the name of Caesar. Do we pocket some of the cash?</Description>
     <Left_Text>Yes</Left_Text>
     <Right_Text>No</Right_Text>
@@ -579,7 +579,7 @@
     <Security>FALSE</Security>
     <Difficulty>medium</Difficulty>
     <Name>Business woman</Name>
-    <Character_Art></Character_Art>
+    <Character_Art>image_3</Character_Art>
     <Description>Cultists request an audience at the festival. Allow them to preach for the masses?</Description>
     <Left_Text>Yes</Left_Text>
     <Right_Text>No</Right_Text>
@@ -601,7 +601,7 @@
     <Security>FALSE</Security>
     <Difficulty>main_story_4</Difficulty>
     <Name>Caesar</Name>
-    <Character_Art></Character_Art>
+    <Character_Art>image_6</Character_Art>
     <Description>The Caesar is smiling.</Description>
     <Left_Text>Keep up the good work!</Left_Text>
     <Right_Text>Good, good...</Right_Text>
@@ -623,7 +623,7 @@
     <Security>TRUE</Security>
     <Difficulty>medium</Difficulty>
     <Name>security guard</Name>
-    <Character_Art></Character_Art>
+    <Character_Art>image_1</Character_Art>
     <Description>A jewel theif was found at the event. Make a public display of him?</Description>
     <Left_Text>Yes</Left_Text>
     <Right_Text>No</Right_Text>
@@ -645,7 +645,7 @@
     <Security>TRUE</Security>
     <Difficulty>medium</Difficulty>
     <Name>Security guard</Name>
-    <Character_Art></Character_Art>
+    <Character_Art>image_1</Character_Art>
     <Description>Word of celebrities in the stadium brought a massive crowd. Let in the mob? </Description>
     <Left_Text>Yes</Left_Text>
     <Right_Text>No</Right_Text>
@@ -667,7 +667,7 @@
     <Security>TRUE</Security>
     <Difficulty>medium</Difficulty>
     <Name>Security guard</Name>
-    <Character_Art></Character_Art>
+    <Character_Art>image_1</Character_Art>
     <Description>A war between cats and dogs broke out. Do you hire an exterminator?</Description>
     <Left_Text>Yes</Left_Text>
     <Right_Text>No</Right_Text>
@@ -689,7 +689,7 @@
     <Security>TRUE</Security>
     <Difficulty>hard</Difficulty>
     <Name>Chef</Name>
-    <Character_Art></Character_Art>
+    <Character_Art>image_2</Character_Art>
     <Description>The snacks are running out. We need more supplies. Bring the regular meat, or bring the dubious origin meat?</Description>
     <Left_Text>Go for regular</Left_Text>
     <Right_Text>Dubious origin</Right_Text>
@@ -711,7 +711,7 @@
     <Security>FALSE</Security>
     <Difficulty>hard</Difficulty>
     <Name>Business woman</Name>
-    <Character_Art></Character_Art>
+    <Character_Art>image_3</Character_Art>
     <Description>The merchandise is not selling very well. Lower the prices?</Description>
     <Left_Text>Yes</Left_Text>
     <Right_Text>No</Right_Text>
@@ -733,7 +733,7 @@
     <Security>TRUE</Security>
     <Difficulty>hard</Difficulty>
     <Name>Business woman</Name>
-    <Character_Art></Character_Art>
+    <Character_Art>image_3</Character_Art>
     <Description>We have free T-Shirts to give out. Send sellers to the seats, or use the T-Shirt cannon?</Description>
     <Left_Text>Cannon!</Left_Text>
     <Right_Text>Just sellers...</Right_Text>
@@ -755,7 +755,7 @@
     <Security>TRUE</Security>
     <Difficulty>hard</Difficulty>
     <Name>Business woman</Name>
-    <Character_Art></Character_Art>
+    <Character_Art>image_3</Character_Art>
     <Description>We are behind schedule. We need to choose between the fancy puppy show and the wild exotic beasts.</Description>
     <Left_Text>Puppy show!</Left_Text>
     <Right_Text>Exotic!</Right_Text>
@@ -777,7 +777,7 @@
     <Security>TRUE</Security>
     <Difficulty>hard</Difficulty>
     <Name>Male Fans</Name>
-    <Character_Art></Character_Art>
+    <Character_Art>image_4</Character_Art>
     <Description>Some fans request fart horns to blow. Do we indulge their humor?</Description>
     <Left_Text>Yes</Left_Text>
     <Right_Text>No</Right_Text>
@@ -799,7 +799,7 @@
     <Security>TRUE</Security>
     <Difficulty>veryHard</Difficulty>
     <Name>Male Fans</Name>
-    <Character_Art></Character_Art>
+    <Character_Art>image_4</Character_Art>
     <Description>The stand-up bit it&apos;s not working, we must change the material. What should we go with?</Description>
     <Left_Text>Dad jokes!</Left_Text>
     <Right_Text>Puns!</Right_Text>
@@ -821,10 +821,10 @@
     <Security>FALSE</Security>
     <Difficulty>end</Difficulty>
     <Name>YOU PLEASED THE CAESAR!</Name>
-    <Character_Art></Character_Art>
+    <Character_Art>image_6</Character_Art>
     <Description>Congratulations! The festival is over, and everyone is more than happy. This festival will be remembered for ages </Description>
-    <Left_Text>Main Menu</Left_Text>
-    <Right_Text>Quit</Right_Text>
+    <Left_Text>Start Over</Left_Text>
+    <Right_Text>Main Menu</Right_Text>
     <Left_Audience>0</Left_Audience>
     <Left_Money>0</Left_Money>
     <Left_Security>0</Left_Security>
@@ -837,16 +837,16 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <DAY>50</DAY>
+    <DAY>-1</DAY>
     <Audience>FALSE</Audience>
     <Money>FALSE</Money>
     <Security>FALSE</Security>
     <Difficulty>end</Difficulty>
     <Name>FIRED!</Name>
-    <Character_Art></Character_Art>
+    <Character_Art>image_6</Character_Art>
     <Description>Being the crowd pleaser comes easy huh? Unfortunately you forgot CAESAR sacrifices his best comedians to the holy gods.</Description>
-    <Left_Text>Main Menu</Left_Text>
-    <Right_Text>Quit</Right_Text>
+    <Left_Text>Start Over</Left_Text>
+    <Right_Text>Main Menu</Right_Text>
     <Left_Audience>0</Left_Audience>
     <Left_Money>0</Left_Money>
     <Left_Security>0</Left_Security>
@@ -859,16 +859,16 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <DAY>51</DAY>
+    <DAY>-1</DAY>
     <Audience>FALSE</Audience>
     <Money>FALSE</Money>
     <Security>FALSE</Security>
     <Difficulty>end</Difficulty>
     <Name>FIRED!</Name>
-    <Character_Art></Character_Art>
+    <Character_Art>image_6</Character_Art>
     <Description>You clearly don’t get what’s funny. You should try laughing because we are concerned for you,</Description>
-    <Left_Text>Main Menu</Left_Text>
-    <Right_Text>Quit</Right_Text>
+    <Left_Text>Start Over</Left_Text>
+    <Right_Text>Main Menu</Right_Text>
     <Left_Audience>0</Left_Audience>
     <Left_Money>0</Left_Money>
     <Left_Security>0</Left_Security>
@@ -881,16 +881,16 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <DAY>52</DAY>
+    <DAY>-1</DAY>
     <Audience>FALSE</Audience>
     <Money>FALSE</Money>
     <Security>FALSE</Security>
     <Difficulty>end</Difficulty>
     <Name>FIRED!</Name>
-    <Character_Art></Character_Art>
+    <Character_Art>image_6</Character_Art>
     <Description>woooah, you hit it big, maybe too big… With all this wealth you forgot to pay taxes, losing it all to the tax collector.</Description>
-    <Left_Text>Main Menu</Left_Text>
-    <Right_Text>Quit</Right_Text>
+    <Left_Text>Start Over</Left_Text>
+    <Right_Text>Main Menu</Right_Text>
     <Left_Audience>0</Left_Audience>
     <Left_Money>0</Left_Money>
     <Left_Security>0</Left_Security>
@@ -903,16 +903,16 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <DAY>53</DAY>
+    <DAY>-1</DAY>
     <Audience>FALSE</Audience>
     <Money>FALSE</Money>
     <Security>FALSE</Security>
     <Difficulty>end</Difficulty>
     <Name>FIRED!</Name>
-    <Character_Art></Character_Art>
+    <Character_Art>image_6</Character_Art>
     <Description>No money, time to always try out that get rich scheme the local pub guys tell you about.</Description>
-    <Left_Text>Main Menu</Left_Text>
-    <Right_Text>Quit</Right_Text>
+    <Left_Text>Start Over</Left_Text>
+    <Right_Text>Main Menu</Right_Text>
     <Left_Audience>0</Left_Audience>
     <Left_Money>0</Left_Money>
     <Left_Security>0</Left_Security>
@@ -925,16 +925,16 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <DAY>54</DAY>
+    <DAY>-1</DAY>
     <Audience>FALSE</Audience>
     <Money>FALSE</Money>
     <Security>FALSE</Security>
     <Difficulty>end</Difficulty>
     <Name>FIRED!</Name>
-    <Character_Art></Character_Art>
+    <Character_Art>image_6</Character_Art>
     <Description>Laughter lessens, when law is present. You clearly did not understand the assignment. What good is a safe festival without fun?</Description>
-    <Left_Text>Main Menu</Left_Text>
-    <Right_Text>Quit</Right_Text>
+    <Left_Text>Start Over</Left_Text>
+    <Right_Text>Main Menu</Right_Text>
     <Left_Audience>0</Left_Audience>
     <Left_Money>0</Left_Money>
     <Left_Security>0</Left_Security>
@@ -947,16 +947,16 @@
     <Right_Extra></Right_Extra>
   </row>
   <row>
-    <DAY>55</DAY>
+    <DAY>-1</DAY>
     <Audience>FALSE</Audience>
     <Money>FALSE</Money>
     <Security>FALSE</Security>
     <Difficulty>end</Difficulty>
     <Name>FIRED!</Name>
-    <Character_Art></Character_Art>
+    <Character_Art>image_6</Character_Art>
     <Description>The festival went completely out of control. The arena was wrecked, thousands of people died, and your head is on a spike. But, hey... at least we had some laughs, right?</Description>
-    <Left_Text>Main Menu</Left_Text>
-    <Right_Text>Quit</Right_Text>
+    <Left_Text>Start Over</Left_Text>
+    <Right_Text>Main Menu</Right_Text>
     <Left_Audience>0</Left_Audience>
     <Left_Money>0</Left_Money>
     <Left_Security>0</Left_Security>
