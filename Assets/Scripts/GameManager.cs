@@ -44,6 +44,12 @@ namespace GGJ
 
         private void Awake()
         {
+            System.Globalization.CultureInfo customCulture = (System.Globalization.CultureInfo)System.Threading.Thread.CurrentThread.CurrentCulture.Clone();
+            customCulture.NumberFormat.NumberDecimalSeparator = ".";
+
+            System.Threading.Thread.CurrentThread.CurrentCulture = customCulture;
+
+
             dataHandler = new DataHandler();
             cards = dataHandler.events;
             currentCard = SetCard(cards[0]);
@@ -123,6 +129,11 @@ namespace GGJ
             float newAudience = selectedOption.audience + currentSpecialEvent.audience;
             float newMoney = selectedOption.money + currentSpecialEvent.money;
             float newSecurity = selectedOption.security + currentSpecialEvent.security;
+
+            Debug.Log("audience target: " + newAudience);
+            Debug.Log("money target: " + newMoney);
+            Debug.Log("security target: " + newSecurity);
+
 
             StartCoroutine(FillColor(audienceStat, newAudience));
             StartCoroutine(FillColor(moneyStat, newMoney));
