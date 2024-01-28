@@ -132,6 +132,36 @@ namespace GGJ
             float newMoney = selectedOption.money + currentSpecialEvent.money;
             float newSecurity = selectedOption.security + currentSpecialEvent.security;
 
+            if (audienceStat.fillAmount + newAudience <= 0)
+            {
+                OnGameOver.Invoke(gameOver.AudienceDown);
+            }
+            else if (audienceStat.fillAmount + newAudience >= 1)
+            {
+                OnGameOver.Invoke(gameOver.AudienceUp);
+            }
+            else if (moneyStat.fillAmount + newMoney <= 0)
+            {
+                OnGameOver.Invoke(gameOver.MoneyDown);
+            }
+            else if (moneyStat.fillAmount + newMoney >= 1)
+            {
+                OnGameOver.Invoke(gameOver.MoneyUp);
+            }
+            else if (securityStat.fillAmount + newSecurity <= 0)
+            {
+                OnGameOver.Invoke(gameOver.SecurityDown);
+            }
+            else if (securityStat.fillAmount + newSecurity >= 1)
+            {
+                OnGameOver.Invoke(gameOver.SecurityUp);
+            }
+            else
+            {
+                OnPointerExitOption();
+                NextCard();
+            }
+
             StartCoroutine(FillColor(audienceStat, newAudience));
             StartCoroutine(FillColor(moneyStat, newMoney));
             StartCoroutine(FillColor(securityStat, newSecurity));
@@ -145,36 +175,6 @@ namespace GGJ
             if (newSecurity > 0) { StartCoroutine(ChangeColor(securityStat, true)); }
             else if (newSecurity < 0) { StartCoroutine(ChangeColor(securityStat, false)); }
 
-
-            if (audienceStat.fillAmount == 0)
-            {
-                OnGameOver.Invoke(gameOver.AudienceDown);
-            }
-            else if (audienceStat.fillAmount == 1)
-            {
-                OnGameOver.Invoke(gameOver.AudienceUp);
-            }
-            else if (moneyStat.fillAmount == 0)
-            {
-                OnGameOver.Invoke(gameOver.MoneyDown);
-            }
-            else if (moneyStat.fillAmount == 1)
-            {
-                OnGameOver.Invoke(gameOver.MoneyUp);
-            }
-            else if (securityStat.fillAmount == 0)
-            {
-                OnGameOver.Invoke(gameOver.SecurityDown);
-            }
-            else if (securityStat.fillAmount == 1)
-            {
-                OnGameOver.Invoke(gameOver.SecurityUp);
-            }
-            else
-            {
-                OnPointerExitOption();
-                NextCard();
-            }
         }
 
         IEnumerator FillColor(Image img, float amount)

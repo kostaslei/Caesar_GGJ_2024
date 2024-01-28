@@ -18,6 +18,6 @@ public class MenuManager : MonoBehaviour
     public static void CloseGame()
     {
         Application.Quit();
-        UnityEditor.EditorApplication.isPlaying = false;
+        //UnityEditor.EditorApplication.isPlaying = false;
     }
 }
