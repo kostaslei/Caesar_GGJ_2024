@@ -96,9 +96,6 @@ namespace GGJ
 
         public void GameOverCard(gameOver losingCondition)
         {
-            //dayIndex = 0;
-            //daysCounter.text = dayIndex + " Days";
-            //MenuManager.EnterMainMenu();
             switch (losingCondition)
             {
                 case gameOver.AudienceUp:
@@ -129,11 +126,6 @@ namespace GGJ
             float newAudience = selectedOption.audience + currentSpecialEvent.audience;
             float newMoney = selectedOption.money + currentSpecialEvent.money;
             float newSecurity = selectedOption.security + currentSpecialEvent.security;
-
-            Debug.Log("audience target: " + newAudience);
-            Debug.Log("money target: " + newMoney);
-            Debug.Log("security target: " + newSecurity);
-
 
             StartCoroutine(FillColor(audienceStat, newAudience));
             StartCoroutine(FillColor(moneyStat, newMoney));
@@ -215,17 +207,30 @@ namespace GGJ
         }
 
         public void SetSelectedOption(int i)
-        {
-            if (i == 0) 
+        {   
+            switch (currentCard.diff)
             {
-                selectedOption = currentCard.top;
-            }
-            else
-            {
-                selectedOption = currentCard.bottom;
+                default:
+                    if (i == 0) selectedOption = currentCard.top;
+                    else selectedOption = currentCard.bottom;
+                    OnOptionSelected.Invoke();
+                    break;
+                case Card.difficulty.end:
+                    if (i == 0) Restart();
+                    else ExitToMainMenu();
+                    break;
             }
             
-            OnOptionSelected.Invoke();
+        }
+
+        public void Restart()
+        {
+            dayIndex = 0;
+            daysCounter.text = dayIndex + " Days";
+        }
+        public void ExitToMainMenu()
+        {
+            MenuManager.EnterMainMenu();
         }
 
         public Card SetCard(Card card)
