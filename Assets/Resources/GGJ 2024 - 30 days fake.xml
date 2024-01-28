@@ -32,7 +32,7 @@ A 30-day long festival in the Moon Arena for all the planet to see!</Description
     <Difficulty>tutorial</Difficulty>
     <Name>Imperial Consul</Name>
     <Character_Art>image_9</Character_Art>
-    <Description>As the Imperial Showrunner, yo have the honour of supervising the festival and making sure everyone has a laugh.
+    <Description>As the Imperial Showrunner, you have the honour of supervising the festival and making sure everyone has a laugh.
 As you know, bread and circus is needed to keep Caesar&apos;s peace.</Description>
     <Left_Text>Sounds like a job for me!</Left_Text>
     <Right_Text>What an honour...</Right_Text>
@@ -49,7 +49,7 @@ As you know, bread and circus is needed to keep Caesar&apos;s peace.</Descriptio
   </row>
   <row>
     <DAY>0</DAY>
-    <Audience>TRUE</Audience>
+    <Audience>FALSE</Audience>
     <Money>FALSE</Money>
     <Security>FALSE</Security>
     <Difficulty>tutorial</Difficulty>
@@ -77,7 +77,7 @@ As you know, bread and circus is needed to keep Caesar&apos;s peace.</Descriptio
     <Difficulty>tutorial</Difficulty>
     <Name>Moonera Chief Advisor</Name>
     <Character_Art>image_5</Character_Art>
-    <Description>The show will start soon. Should we go with the lights show, or the water show?</Description>
+    <Description>The show will start soon. Should we go with the light show, or the water show?</Description>
     <Left_Text>Lights!</Left_Text>
     <Right_Text>Water!</Right_Text>
     <Left_Audience>0.1</Left_Audience>
@@ -121,7 +121,7 @@ As you know, bread and circus is needed to keep Caesar&apos;s peace.</Descriptio
     <Difficulty>main_story_1</Difficulty>
     <Name>Imperial Consul</Name>
     <Character_Art>image_9</Character_Art>
-    <Description>Caesar will arrive next week. We should use this first week to get everything ready. </Description>
+    <Description>Caesar will arrive next week. We should use this first sevem day to get everything ready. </Description>
     <Left_Text>I&apos;m ready!</Left_Text>
     <Right_Text>Oh boy...</Right_Text>
     <Left_Audience>0</Left_Audience>
@@ -143,7 +143,7 @@ As you know, bread and circus is needed to keep Caesar&apos;s peace.</Descriptio
     <Difficulty>easy</Difficulty>
     <Name>Moonera Chief Advisor</Name>
     <Character_Art>image_5</Character_Art>
-    <Description>We are a little behind schedule. Call some clowns to entertain the audiencie while everything is being prepared?</Description>
+    <Description>We are a little behind schedule. Call some clowns to entertain the audience while everything is being prepared?</Description>
     <Left_Text>Yes</Left_Text>
     <Right_Text>No</Right_Text>
     <Left_Audience>0.1</Left_Audience>
@@ -165,7 +165,7 @@ As you know, bread and circus is needed to keep Caesar&apos;s peace.</Descriptio
     <Difficulty>tutorial</Difficulty>
     <Name>Vendor</Name>
     <Character_Art>image_3</Character_Art>
-    <Description>We still have tickets for today at sale. Should we keep the full price or apply last-minute discounts?</Description>
+    <Description>We still have tickets to sell. Should we keep the full price or apply last-minute discounts?</Description>
     <Left_Text>Keep the prices</Left_Text>
     <Right_Text>Discounts</Right_Text>
     <Left_Audience>0</Left_Audience>
@@ -187,7 +187,7 @@ As you know, bread and circus is needed to keep Caesar&apos;s peace.</Descriptio
     <Difficulty>tutorial</Difficulty>
     <Name>Imperial Consul</Name>
     <Character_Art>image_9</Character_Art>
-    <Description>Manage your money wisely, but don&apos;t stack up de arcs! Caesar has expressively ordered to spare no expense in his party.</Description>
+    <Description>Manage your money wisely, but don&apos;t pile up the cash! Caesar has expressively ordered to spare no expense in his party.</Description>
     <Left_Text>I like the sound of that!</Left_Text>
     <Right_Text>Understood</Right_Text>
     <Left_Audience>0</Left_Audience>
@@ -207,11 +207,11 @@ As you know, bread and circus is needed to keep Caesar&apos;s peace.</Descriptio
     <Money>TRUE</Money>
     <Security>FALSE</Security>
     <Difficulty>easy</Difficulty>
-    <Name>Moonera Chief Advisor</Name>
-    <Character_Art>image_5</Character_Art>
+    <Name>Audience Coordinator</Name>
+    <Character_Art>image_4</Character_Art>
     <Description>People are coming from all over Planet Earth to enjoy this show. Give salutations to the crowds?</Description>
     <Left_Text>Yes</Left_Text>
-    <Right_Text>Let&apos;s not waste time</Right_Text>
+    <Right_Text>Let&apos;s not waste time...</Right_Text>
     <Left_Audience>0.1</Left_Audience>
     <Left_Money>0</Left_Money>
     <Left_Security>0</Left_Security>
@@ -253,7 +253,7 @@ As you know, bread and circus is needed to keep Caesar&apos;s peace.</Descriptio
     <Difficulty>tutorial</Difficulty>
     <Name>Security Guard</Name>
     <Character_Art>image_1</Character_Art>
-    <Description>The emergency lights are off. Turn them on?</Description>
+    <Description>The emergency lights shutdown. Turn them on?</Description>
     <Left_Text>Yes</Left_Text>
     <Right_Text>No</Right_Text>
     <Left_Audience>0</Left_Audience>
@@ -319,7 +319,7 @@ As you know, bread and circus is needed to keep Caesar&apos;s peace.</Descriptio
     <Difficulty>main_story_2</Difficulty>
     <Name>Security guard</Name>
     <Character_Art>image_1</Character_Art>
-    <Description>Caesar has arrived! And people are crowding to catch a glimpse of him. Should we send more guards?</Description>
+    <Description>Caesar has arrived! And people are crowding to catch a glimpse. Should we send more guards?</Description>
     <Left_Text>Of course!</Left_Text>
     <Right_Text>Nah...</Right_Text>
     <Left_Audience>0</Left_Audience>
@@ -364,8 +364,8 @@ As you know, bread and circus is needed to keep Caesar&apos;s peace.</Descriptio
     <Name>Vendor</Name>
     <Character_Art>image_3</Character_Art>
     <Description>Children crave our new Caesar action figure. Do we host a giveaway?</Description>
-    <Left_Text>Yes</Left_Text>
-    <Right_Text>No</Right_Text>
+    <Left_Text>Free Caesars for everyone!</Left_Text>
+    <Right_Text>Nope</Right_Text>
     <Left_Audience>0.15</Left_Audience>
     <Left_Money>-0.15</Left_Money>
     <Left_Security>0</Left_Security>
@@ -385,7 +385,7 @@ As you know, bread and circus is needed to keep Caesar&apos;s peace.</Descriptio
     <Difficulty>medium</Difficulty>
     <Name>Vendor</Name>
     <Character_Art>image_3</Character_Art>
-    <Description>A new sponsor offered free alcoholic beverages for everyone attending. Accept the offer?</Description>
+    <Description>A new sponsor offered free alcoholic beverages for attendees. Accept the offer?</Description>
     <Left_Text>Cheers!</Left_Text>
     <Right_Text>No</Right_Text>
     <Left_Audience>0.1</Left_Audience>
@@ -517,7 +517,7 @@ As you know, bread and circus is needed to keep Caesar&apos;s peace.</Descriptio
     <Difficulty>medium</Difficulty>
     <Name>Moonera Chief Advisor</Name>
     <Character_Art>image_5</Character_Art>
-    <Description>The elephants are bigger than you thought and they don&apos;t fit through the doorway. Cancel the elephant number, or bring them through air?</Description>
+    <Description>The elephants are bigger than you thought and they don&apos;t fit through the doorway. Cancel the elephants, or bring them through air?</Description>
     <Left_Text>Bring them by helicopter</Left_Text>
     <Right_Text>Cancel the show</Right_Text>
     <Left_Audience>0.1</Left_Audience>
@@ -847,9 +847,9 @@ As you know, bread and circus is needed to keep Caesar&apos;s peace.</Descriptio
     <Difficulty>hard</Difficulty>
     <Name>Audience Coordinator</Name>
     <Character_Art>image_4</Character_Art>
-    <Description>Some fans request fart horns to blow. Do we indulge their humor?</Description>
-    <Left_Text>Yes</Left_Text>
-    <Right_Text>No</Right_Text>
+    <Description>Some fans request fart horns to blow. Do we indulge their celebratory humor?</Description>
+    <Left_Text>Let them blow!</Left_Text>
+    <Right_Text>No, not at all</Right_Text>
     <Left_Audience>0.2</Left_Audience>
     <Left_Money>0.2</Left_Money>
     <Left_Security>-0.2</Left_Security>
@@ -870,8 +870,8 @@ As you know, bread and circus is needed to keep Caesar&apos;s peace.</Descriptio
     <Name>Moonera Chief Advisor</Name>
     <Character_Art>image_5</Character_Art>
     <Description>In the final ceremony, people wish to donate in the name of Caesar. Do we pocket some of the cash?</Description>
-    <Left_Text>Yes</Left_Text>
-    <Right_Text>No</Right_Text>
+    <Left_Text>Yes please!</Left_Text>
+    <Right_Text>No, Caesar might know</Right_Text>
     <Left_Audience>0</Left_Audience>
     <Left_Money>0.2</Left_Money>
     <Left_Security>-0.2</Left_Security>
@@ -913,7 +913,7 @@ As you know, bread and circus is needed to keep Caesar&apos;s peace.</Descriptio
     <Difficulty>end</Difficulty>
     <Name>FIRED!</Name>
     <Character_Art>image_6</Character_Art>
-    <Description>Being the crowd pleaser comes easy huh? Unfortunately you forgot CAESAR sacrifices his best comedians to the holy gods.</Description>
+    <Description>Being the crowd pleaser comes easy huh? It certainly feels good to be loved by the audience. Unfortunately, you forgot Caesar sacrifices his best comedians to the holy gods.</Description>
     <Left_Text>Start Over</Left_Text>
     <Right_Text>Main Menu</Right_Text>
     <Left_Audience>0</Left_Audience>
@@ -935,7 +935,7 @@ As you know, bread and circus is needed to keep Caesar&apos;s peace.</Descriptio
     <Difficulty>end</Difficulty>
     <Name>FIRED!</Name>
     <Character_Art>image_6</Character_Art>
-    <Description>You clearly don’t get what’s funny. You should try laughing because we are concerned for you,</Description>
+    <Description>You&apos;ve achieved the impossible. Caesar and the crowds, finally joined in their anger and contempt towards the imperial showrunner. You are sent to the arena to a public execution. The last thing you hear is everyone laughing... </Description>
     <Left_Text>Start Over</Left_Text>
     <Right_Text>Main Menu</Right_Text>
     <Left_Audience>0</Left_Audience>
@@ -957,7 +957,7 @@ As you know, bread and circus is needed to keep Caesar&apos;s peace.</Descriptio
     <Difficulty>end</Difficulty>
     <Name>FIRED!</Name>
     <Character_Art>image_6</Character_Art>
-    <Description>Woooah, you hit it big, maybe too big… With all this wealth you forgot to pay taxes, losing it all to the tax collector.</Description>
+    <Description>You&apos;re great at accumulating money, but you actually forgot to spend it! Caesar is many things, but a scrooge, he&apos;s not. He won&apos;t be happy. And neither will you. Because you&apos;re dead a man. </Description>
     <Left_Text>Start Over</Left_Text>
     <Right_Text>Main Menu</Right_Text>
     <Left_Audience>0</Left_Audience>
@@ -979,7 +979,7 @@ As you know, bread and circus is needed to keep Caesar&apos;s peace.</Descriptio
     <Difficulty>end</Difficulty>
     <Name>FIRED!</Name>
     <Character_Art>image_6</Character_Art>
-    <Description>No money, time to try out that get rich scheme the local pub guys tell you about.</Description>
+    <Description>Money’s gone, but life goes on. Just not for you. Caesar demands your immediate execution. Your head is sold in a public auction to enrich the Imperium.  </Description>
     <Left_Text>Start Over</Left_Text>
     <Right_Text>Main Menu</Right_Text>
     <Left_Audience>0</Left_Audience>
@@ -1023,7 +1023,7 @@ As you know, bread and circus is needed to keep Caesar&apos;s peace.</Descriptio
     <Difficulty>end</Difficulty>
     <Name>FIRED!</Name>
     <Character_Art>image_6</Character_Art>
-    <Description>The festival went completely out of control. The arena was wrecked, thousands of people died, and your head is on a spike. But, hey... at least we had some laughs, right?</Description>
+    <Description>The festival went completely out of control. The arena was wrecked, thousands died, and your head is on a spike. But, hey... at least we had some laughs, right?</Description>
     <Left_Text>Start Over</Left_Text>
     <Right_Text>Main Menu</Right_Text>
     <Left_Audience>0</Left_Audience>
