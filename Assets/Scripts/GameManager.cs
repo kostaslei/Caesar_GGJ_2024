@@ -98,22 +98,22 @@ namespace GGJ
             switch (losingCondition)
             {
                 case gameOver.AudienceUp:
-                    currentCard = SetCard(cards[50]);
+                    currentCard = SetCard(cards[40]);
                     break;
                 case gameOver.AudienceDown:
-                    currentCard = SetCard(cards[51]);
+                    currentCard = SetCard(cards[41]);
                     break;
                 case gameOver.MoneyUp:
-                    currentCard = SetCard(cards[52]);
+                    currentCard = SetCard(cards[42]);
                     break;
                 case gameOver.MoneyDown:
-                    currentCard = SetCard(cards[53]);
+                    currentCard = SetCard(cards[43]);
                     break;
                 case gameOver.SecurityUp:
-                    currentCard = SetCard(cards[54]);
+                    currentCard = SetCard(cards[44]);
                     break;
                 case gameOver.SecurityDown:
-                    currentCard = SetCard(cards[55]);
+                    currentCard = SetCard(cards[45]);
                     break;
                 default:
                     break;
@@ -229,6 +229,9 @@ namespace GGJ
             dayIndex = 0;
             daysCounter.text = dayIndex + " Days";
             currentCard = SetCard(cards[0]);
+            audienceStat.fillAmount = 0.5f;
+            moneyStat.fillAmount = 0.5f;
+            securityStat.fillAmount = 0.5f;
         }
         public void ExitToMainMenu()
         {
