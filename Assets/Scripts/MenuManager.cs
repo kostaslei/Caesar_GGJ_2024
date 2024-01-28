@@ -5,11 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
-    private void Awake()
-    {
-        DontDestroyOnLoad(this);
-    }
-
     public static void PlayGame()
     {
         SceneManager.LoadScene("Game");
@@ -23,5 +18,6 @@ public class MenuManager : MonoBehaviour
     public static void CloseGame()
     {
         Application.Quit();
+        UnityEditor.EditorApplication.isPlaying = false;
     }
 }
