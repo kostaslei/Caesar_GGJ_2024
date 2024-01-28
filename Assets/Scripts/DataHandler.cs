@@ -34,7 +34,7 @@ namespace GGJ
                 Debug.Log(index);
                 Card cards = new Card
                 {
-                    ID = Int32.Parse(rowNode.SelectSingleNode("ID").InnerText),
+                    DAY = Int32.Parse(rowNode.SelectSingleNode("DAY").InnerText),
                     audience = bool.Parse(rowNode.SelectSingleNode("Audience").InnerText),
                     money = bool.Parse(rowNode.SelectSingleNode("Money").InnerText),
                     security = bool.Parse(rowNode.SelectSingleNode("Security").InnerText),

@@ -220,13 +220,13 @@ namespace GGJ
                     else ExitToMainMenu();
                     break;
             }
-            
         }
 
         public void Restart()
         {
             dayIndex = 0;
             daysCounter.text = dayIndex + " Days";
+            currentCard = SetCard(cards[0]);
         }
         public void ExitToMainMenu()
         {
@@ -235,7 +235,7 @@ namespace GGJ
 
         public Card SetCard(Card card)
         {
-            daysCounter.text = dayIndex + " Days";
+            daysCounter.text = currentCard.DAY + " Days";
             eventDescription.text = card.description;
             option1.GetComponentInChildren<TMP_Text>().text = card.top.text;
             option2.GetComponentInChildren<TMP_Text>().text = card.bottom.text;
