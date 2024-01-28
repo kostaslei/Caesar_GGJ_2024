@@ -173,13 +173,12 @@ namespace GGJ
                     multiplier = -1;
                 }
 
-                while (true)
+                while (!(Mathf.Abs(img.fillAmount - target) <= 0.001f))
                 {
                     img.fillAmount += 0.01f * multiplier;
 
                     yield return new WaitForSeconds(0.01f);
 
-                    if (Mathf.Abs(img.fillAmount - target) <= 0.001f) break;
                 }
             }
 
