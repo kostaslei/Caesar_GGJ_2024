@@ -30,6 +30,7 @@ namespace GGJ
                     money = bool.Parse(rowNode.SelectSingleNode("Money").InnerText),
                     security = bool.Parse(rowNode.SelectSingleNode("Security").InnerText),
                     diff = (Card.difficulty)Enum.Parse(typeof(Card.difficulty), rowNode.SelectSingleNode("Difficulty").InnerText),
+                    name = rowNode.SelectSingleNode("Name").InnerText,
                     character_art = rowNode.SelectSingleNode("Character_Art").InnerText,
                     description = rowNode.SelectSingleNode("Description").InnerText,
                     top = new Option
