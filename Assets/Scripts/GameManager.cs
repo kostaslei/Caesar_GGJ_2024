@@ -102,22 +102,22 @@ namespace GGJ
             switch (losingCondition)
             {
                 case gameOver.AudienceUp:
-                    //currentCard = SetCard(cards[-]);
+                    currentCard = SetCard(cards[50]);
                     break;
                 case gameOver.AudienceDown:
-                    //currentCard = SetCard(cards[-]);
+                    currentCard = SetCard(cards[51]);
                     break;
                 case gameOver.MoneyUp:
-                    //currentCard = SetCard(cards[-]);
+                    currentCard = SetCard(cards[52]);
                     break;
                 case gameOver.MoneyDown:
-                    //currentCard = SetCard(cards[-]);
+                    currentCard = SetCard(cards[53]);
                     break;
                 case gameOver.SecurityUp:
-                    //currentCard = SetCard(cards[-]);
+                    currentCard = SetCard(cards[54]);
                     break;
                 case gameOver.SecurityDown:
-                    //currentCard = SetCard(cards[-]);
+                    currentCard = SetCard(cards[55]);
                     break;
                 default:
                     break;
