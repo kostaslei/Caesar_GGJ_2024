@@ -30,6 +30,7 @@ namespace GGJ
         [Header("DATA")]
         public Option selectedOption;
         public SpecialEventSO currentSpecialEvent;
+        public AudioSource gameover;
         Color32 fillColor;
 
         Card[] cards;
@@ -95,6 +96,8 @@ namespace GGJ
 
         public void GameOverCard(gameOver losingCondition)
         {
+            gameover.Play();
+
             switch (losingCondition)
             {
                 case gameOver.AudienceUp:
