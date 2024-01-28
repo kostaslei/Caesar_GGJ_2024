@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 namespace GGJ
@@ -219,6 +220,8 @@ namespace GGJ
                     else ExitToMainMenu();
                     break;
             }
+
+            EventSystem.current.SetSelectedGameObject(null);
         }
 
         public void Restart()
