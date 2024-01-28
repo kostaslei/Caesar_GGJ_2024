@@ -1636,6 +1636,9 @@ MonoBehaviour:
   audienceStat: {fileID: 1841274355}
   moneyStat: {fileID: 964742849}
   securityStat: {fileID: 2012698047}
+  audienceAnimator: {fileID: 1581552365}
+  moneyAnimator: {fileID: 308816286}
+  securityAnimator: {fileID: 1295438847}
   audienceIndicator: {fileID: 415778542}
   moneyIndicator: {fileID: 334480766}
   securityIndicator: {fileID: 1371440419}
