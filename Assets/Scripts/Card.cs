@@ -22,6 +22,7 @@ namespace GGJ
         public bool money;
         public bool security;
         public difficulty diff;
+        public string name;
         public string character_art;
         public string description;
         public Option top = new Option();
