@@ -36,8 +36,6 @@ namespace GGJ
 
         public static UnityEvent OnOptionSelected = new UnityEvent();
         public static UnityEvent<gameOver> OnGameOver = new UnityEvent<gameOver>();
-        private UnityEvent<float> onProgress;
-        private UnityEvent onFillCompleted;
 
         private DataHandler dataHandler;
 

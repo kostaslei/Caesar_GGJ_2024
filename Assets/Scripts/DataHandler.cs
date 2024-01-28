@@ -19,7 +19,7 @@ namespace GGJ
 
         private static Card[] getData()
         {
-            TextAsset xmlFile = Resources.Load<TextAsset>("output");
+            TextAsset xmlFile = Resources.Load<TextAsset>("GGJ 2024 - 30 days fake");
             // Parse the XML data
             XmlDocument xmlDoc = new XmlDocument(); // Provide your XML string here
             xmlDoc.LoadXml(xmlFile.text);

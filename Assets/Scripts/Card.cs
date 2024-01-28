@@ -15,7 +15,7 @@ namespace GGJ
 
     public class Card
     {
-        public enum difficulty { tutorial, veryEasy, easy, medium, hard, veryHard, main_story_1, main_story_2, main_story_3, main_story_4, main_story_5, main_story_6, main_story_7 };
+        public enum difficulty { tutorial, veryEasy, easy, medium, hard, veryHard, main_story_1, main_story_2, main_story_3, main_story_4, main_story_5, main_story_6, main_story_7, end };
      
         public int ID;
         public bool audience;
@@ -44,7 +44,7 @@ namespace GGJ
                     return difficulty.medium;
                 case "hard":
                     return difficulty.hard;
-                case "very hard":
+                case "veryHard":
                     return difficulty.veryHard;
                 case "main_story_1":
                     return difficulty.main_story_1;
@@ -60,6 +60,10 @@ namespace GGJ
                     return difficulty.main_story_6;
                 case "main_story_7":
                     return difficulty.main_story_7;
+                case "end":
+                    return difficulty.main_story_7;
+                
+                    
             }
         }
     }
