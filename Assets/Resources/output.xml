@@ -11,9 +11,9 @@
     <Description>The show 1</Description>
     <Left_Text>Yes</Left_Text>
     <Right_Text>No</Right_Text>
-    <Left_Audience>1</Left_Audience>
-    <Left_Money>1</Left_Money>
-    <Left_Security>1</Left_Security>
+    <Left_Audience>0.3</Left_Audience>
+    <Left_Money>-0.2</Left_Money>
+    <Left_Security>0</Left_Security>
     <Left_Achievement>1</Left_Achievement>
     <Left_Extra>1</Left_Extra>
     <Right_Audience>-0.1</Right_Audience>

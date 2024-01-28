@@ -29,6 +29,7 @@ namespace GGJ
         [Header("DATA")]
         public Option selectedOption;
         public SpecialEventSO currentSpecialEvent;
+        Color32 fillColor;
 
         Card[] cards;
         Card currentCard;
@@ -43,6 +44,7 @@ namespace GGJ
             dataHandler = new DataHandler();
             cards = dataHandler.events;
             currentCard = SetCard(cards[0]);
+            fillColor = new Color32(119, 195, 245, 255);
         }
 
         // Start is called before the first frame update
@@ -123,14 +125,14 @@ namespace GGJ
             StartCoroutine(FillColor(moneyStat, newMoney));
             StartCoroutine(FillColor(securityStat, newSecurity));
 
-            if (newAudience >= 0) { StartCoroutine(ChangeColor(audienceStat, true)); }
-            else { StartCoroutine(ChangeColor(audienceStat, false)); }
+            if (newAudience > 0) { StartCoroutine(ChangeColor(audienceStat, true)); }
+            else if (newAudience < 0) { StartCoroutine(ChangeColor(audienceStat, false)); }
 
-            if (newMoney >= 0) { StartCoroutine(ChangeColor(moneyStat, true)); }
-            else { StartCoroutine(ChangeColor(moneyStat, false)); }
+            if (newMoney > 0) { StartCoroutine(ChangeColor(moneyStat, true)); }
+            else if (newMoney < 0) { StartCoroutine(ChangeColor(moneyStat, false)); }
 
-            if (newSecurity >= 0) { StartCoroutine(ChangeColor(securityStat, true)); }
-            else { StartCoroutine(ChangeColor(securityStat, false)); }
+            if (newSecurity > 0) { StartCoroutine(ChangeColor(securityStat, true)); }
+            else if (newSecurity < 0) { StartCoroutine(ChangeColor(securityStat, false)); }
 
 
             if (audienceStat.fillAmount == 0)
@@ -176,9 +178,12 @@ namespace GGJ
                     multiplier = -1;
                 }
 
-                while (!(Mathf.Abs(img.fillAmount - target) <= 0.001f))
+                while (!(Mathf.Abs(img.fillAmount - target) == 0.00f))
                 {
                     img.fillAmount += 0.01f * multiplier;
+                    img.fillAmount = Mathf.Round(img.fillAmount * 100f) / 100;
+
+                    Debug.Log(img.fillAmount);
 
                     yield return new WaitForSeconds(0.01f);
 
@@ -190,14 +195,12 @@ namespace GGJ
 
         IEnumerator ChangeColor(Image img, bool isPositive)
         {
-            Color currentColor = img.color;
-
             if (isPositive) { img.color = Color.green; }
             else { img.color = Color.red; }
 
             yield return new WaitForSeconds(1f);
 
-            img.color = currentColor;
+            img.color = fillColor;
 
             yield return null; 
         }
