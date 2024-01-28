@@ -38,6 +38,7 @@ namespace GGJ
 
         public static UnityEvent OnOptionSelected = new UnityEvent();
         public static UnityEvent<gameOver> OnGameOver = new UnityEvent<gameOver>();
+        IEnumerator typeCoroutine;
 
         private DataHandler dataHandler;
 
@@ -91,6 +92,9 @@ namespace GGJ
         public void NextCard()
         {
             dayIndex++;
+            StopCoroutine(typeCoroutine);
+            eventDescription.text = "";
+
             currentCard = SetCard(cards[dayIndex]);
         }
 
@@ -210,7 +214,7 @@ namespace GGJ
         }
 
         public void SetSelectedOption(int i)
-        {   
+        {
             switch (currentCard.diff)
             {
                 default:
@@ -246,12 +250,26 @@ namespace GGJ
             if (card.DAY > 0) daysCounter.text = card.DAY + " Days";
             eventImage.sprite = Resources.Load<Sprite>(card.character_art);
             Debug.Log(card.character_art);
-            eventDescription.text = card.description;
+
+            typeCoroutine = TypeSentence(card.description);
+            StartCoroutine(typeCoroutine);
+
             eventTitle.text = card.name;
             option1.GetComponentInChildren<TMP_Text>().text = card.top.text;
             option2.GetComponentInChildren<TMP_Text>().text = card.bottom.text;
 
             return card;
+        }
+
+        IEnumerator TypeSentence(string sentence)
+        {
+            eventDescription.text = "";
+
+            foreach (char letter in sentence.ToCharArray())
+            { 
+                eventDescription.text += letter;
+                yield return new WaitForSeconds(0.015f);
+            }
         }
     }
 }
