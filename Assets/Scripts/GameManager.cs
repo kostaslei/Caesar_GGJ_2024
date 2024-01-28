@@ -165,6 +165,7 @@ namespace GGJ
             }
             else
             {
+                OnPointerExitOption();
                 NextCard();
             }
         }
