@@ -16,9 +16,9 @@ namespace GGJ
         public TMP_Text daysCounter;
 
         [Header("STATS")]
-        public Image audienceStat;
-        public Image moneyStat;
-        public Image securityStat;
+        public bool audienceChanged = false, moneyChanged = false, securityChanged = false;
+        public Image audienceStat, moneyStat, securityStat;
+        public AnimationClip audienceAnimation, moneyAnimation, securityAnimation;
         public GameObject audienceIndicator, moneyIndicator, securityIndicator;
 
         [Header("EVENT")]
@@ -249,7 +249,22 @@ namespace GGJ
         {
             if (card.DAY > 0) daysCounter.text = card.DAY + " Days";
             eventImage.sprite = Resources.Load<Sprite>(card.character_art);
-            Debug.Log(card.character_art);
+
+            if (!audienceChanged && card.audience) 
+            {
+                audienceChanged = true;
+                //playanimation();
+            }
+            if (!moneyChanged && card.money)
+            {
+                moneyChanged = true;
+                //playanimation();
+            }
+            if (!securityChanged && card.security)
+            {
+                securityChanged = true;
+                //playanimation();
+            }
 
             typeCoroutine = TypeSentence(card.description);
             StartCoroutine(typeCoroutine);
