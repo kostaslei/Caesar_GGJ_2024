@@ -229,6 +229,9 @@ namespace GGJ
             dayIndex = 0;
             daysCounter.text = dayIndex + " Days";
             currentCard = SetCard(cards[0]);
+            audienceStat.fillAmount = 0.5f;
+            moneyStat.fillAmount = 0.5f;
+            securityStat.fillAmount = 0.5f;
         }
         public void ExitToMainMenu()
         {
@@ -237,7 +240,7 @@ namespace GGJ
 
         public Card SetCard(Card card)
         {
-            daysCounter.text = card.DAY + " Days";
+            if (card.DAY > 0) daysCounter.text = card.DAY + " Days";
             eventImage.sprite = Resources.Load<Sprite>(card.character_art);
             Debug.Log(card.character_art);
             eventDescription.text = card.description;
