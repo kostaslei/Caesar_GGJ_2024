@@ -104,22 +104,22 @@ namespace GGJ
             switch (losingCondition)
             {
                 case gameOver.AudienceUp:
-                    currentCard = SetCard(cards[40]);
-                    break;
-                case gameOver.AudienceDown:
-                    currentCard = SetCard(cards[41]);
-                    break;
-                case gameOver.MoneyUp:
-                    currentCard = SetCard(cards[42]);
-                    break;
-                case gameOver.MoneyDown:
                     currentCard = SetCard(cards[43]);
                     break;
-                case gameOver.SecurityUp:
+                case gameOver.AudienceDown:
                     currentCard = SetCard(cards[44]);
                     break;
-                case gameOver.SecurityDown:
+                case gameOver.MoneyUp:
                     currentCard = SetCard(cards[45]);
+                    break;
+                case gameOver.MoneyDown:
+                    currentCard = SetCard(cards[46]);
+                    break;
+                case gameOver.SecurityUp:
+                    currentCard = SetCard(cards[47]);
+                    break;
+                case gameOver.SecurityDown:
+                    currentCard = SetCard(cards[48]);
                     break;
                 default:
                     break;
@@ -270,7 +270,7 @@ namespace GGJ
             foreach (char letter in sentence.ToCharArray())
             { 
                 eventDescription.text += letter;
-                yield return new WaitForSeconds(0.015f);
+                yield return new WaitForSeconds(0.01f);
             }
         }
     }
